@@ -1,0 +1,25 @@
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl...
+Writing logs to logs/CNN_sgd_momentum=0.95_learning_rate=0.05_conv_length=256_conv_stride=256_batch_size=10_epochs=30_weight_decay=1e-05_extension=CRNN_run_0
+epoch: [0], step: [99/1543], batch loss: 0.26097, batch accuracy: 56.97, data load time: 0.11223, step time: 0.07400
+epoch: [0], step: [199/1543], batch loss: 0.19001, batch accuracy: 72.96, data load time: 0.12550, step time: 0.06976
+epoch: [0], step: [299/1543], batch loss: 0.16613, batch accuracy: 75.00, data load time: 0.14840, step time: 0.07115
+epoch: [0], step: [399/1543], batch loss: 0.31851, batch accuracy: 53.42, data load time: 0.14547, step time: 0.07707
+epoch: [0], step: [499/1543], batch loss: 0.22906, batch accuracy: 77.36, data load time: 0.15478, step time: 0.07570
+epoch: [0], step: [599/1543], batch loss: 0.23040, batch accuracy: 54.51, data load time: 0.15457, step time: 0.07188
+epoch: [0], step: [699/1543], batch loss: 0.23070, batch accuracy: 70.90, data load time: 0.13767, step time: 0.07395
+epoch: [0], step: [799/1543], batch loss: 0.17779, batch accuracy: 71.02, data load time: 0.14366, step time: 0.07208
+epoch: [0], step: [899/1543], batch loss: 0.20789, batch accuracy: 62.49, data load time: 0.13321, step time: 0.07394
+epoch: [0], step: [999/1543], batch loss: 0.18075, batch accuracy: 63.78, data load time: 0.10507, step time: 0.07194
+epoch: [0], step: [1099/1543], batch loss: 0.17378, batch accuracy: 85.16, data load time: 0.14690, step time: 0.07048
+epoch: [0], step: [1199/1543], batch loss: 0.21510, batch accuracy: 61.91, data load time: 0.12855, step time: 0.07482
+epoch: [0], step: [1299/1543], batch loss: 0.28104, batch accuracy: 57.72, data load time: 0.11042, step time: 0.07485
+epoch: [0], step: [1399/1543], batch loss: 0.20786, batch accuracy: 69.26, data load time: 0.12570, step time: 0.07337
+epoch: [0], step: [1499/1543], batch loss: 0.30911, batch accuracy: 54.59, data load time: 0.13471, step time: 0.07612
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7060, Class Labels: ambient: 0.7287, baroque: 0.6787, bass: 0.6807, beat: 0.8327, cello: 0.7431, chant: 0.6114, choir: 0.7466, classical: 0.7935, country: 0.6079, dance: 0.7893, drum: 0.7798, eastern: 0.7308, electro: 0.7481, fast: 0.7231, female: 0.4015, flute: 0.6407, folk: 0.6547, foreign: 0.5456, guitar: 0.5863, hard: 0.9413, harp: 0.7581, harpsichord: 0.7427, heavy: 0.9292, india: 0.7339, jazz: 0.7548, loud: 0.9009, male: 0.6854, modern: 0.6853, new age: 0.7382, no beat: 0.4369, no piano: 0.5589, no singer: 0.5394, opera: 0.7724, orchestra: 0.5638, piano: 0.6956, pop: 0.7630, quiet: 0.7115, rock: 0.9291, singer: 0.5960, sitar: 0.7230, slow: 0.6521, soft: 0.7039, solo: 0.7170, strange: 0.5445, string: 0.7874, synth: 0.7106, techno: 0.8279, trance: 0.8018, violin: 0.7672, vocal: 0.6039
+
+-------------------------------------------------------------

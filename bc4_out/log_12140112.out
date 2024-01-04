@@ -1,0 +1,23 @@
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl...
+Writing logs to logs/CNN_sgd_momentum=0.93_learning_rate=0.05_conv_length=256_conv_stride=256_batch_size=10_epochs=20_weight_decay=0.001_extension=ExtraCNN_run_8
+epoch: [0], step: [99/1543], batch loss: 0.28058, batch accuracy: 66.88, data load time: 0.01116, step time: 0.14036
+epoch: [0], step: [199/1543], batch loss: 0.18228, batch accuracy: 78.68, data load time: 0.02438, step time: 0.15667
+epoch: [0], step: [299/1543], batch loss: 0.17362, batch accuracy: 76.92, data load time: 0.00576, step time: 0.10134
+epoch: [0], step: [399/1543], batch loss: 0.21192, batch accuracy: 56.42, data load time: 0.00215, step time: 0.09502
+epoch: [0], step: [499/1543], batch loss: 0.21030, batch accuracy: 57.65, data load time: 0.00307, step time: 0.10776
+epoch: [0], step: [599/1543], batch loss: 0.22720, batch accuracy: 59.89, data load time: 0.12189, step time: 0.14691
+epoch: [0], step: [699/1543], batch loss: 0.19692, batch accuracy: 68.15, data load time: 0.00158, step time: 0.16600
+epoch: [0], step: [799/1543], batch loss: 0.16028, batch accuracy: 79.84, data load time: 0.00169, step time: 0.18153
+epoch: [0], step: [899/1543], batch loss: 0.22118, batch accuracy: 80.44, data load time: 0.00215, step time: 0.13592
+epoch: [0], step: [999/1543], batch loss: 0.18517, batch accuracy: 83.53, data load time: 0.00165, step time: 0.14300
+epoch: [0], step: [1099/1543], batch loss: 0.22366, batch accuracy: 60.95, data load time: 0.00166, step time: 0.11319
+epoch: [0], step: [1199/1543], batch loss: 0.14360, batch accuracy: 80.09, data load time: 0.00166, step time: 0.15347
+epoch: [0], step: [1299/1543], batch loss: 0.22394, batch accuracy: 74.71, data load time: 0.00168, step time: 0.16915
+epoch: [0], step: [1399/1543], batch loss: 0.22274, batch accuracy: 68.54, data load time: 0.01574, step time: 0.11311
+epoch: [0], step: [1499/1543], batch loss: 0.18931, batch accuracy: 69.29, data load time: 0.00155, step time: 0.08381
+EVALUATION METRICS:
+-------------------------------------------------------------
+

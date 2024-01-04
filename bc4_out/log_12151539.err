@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 181, in <module>
+    main(parser.parse_args()) 
+  File "main.py", line 114, in main
+    test_dataset = SpecMagnaTagATune('testSpe2', dataset)
+  File "/user/home/ee20947/cw/dataload.py", line 85, in __init__
+    dataset_path = dataset[dataset_key]["annotations_path"]
+KeyError: 'testSpe2'

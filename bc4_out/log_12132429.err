@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "model.py", line 735, in <module>
+    main(parser.parse_args()) 
+  File "model.py", line 176, in main
+    trainer.train(
+  File "model.py", line 479, in train
+    logits = self.model.forward(batch)
+  File "model.py", line 355, in forward
+    x = F.relu(self.fc1(x))
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (100x64 and 384x100)

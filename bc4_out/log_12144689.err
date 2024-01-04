@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "model.py", line 621, in <module>
+    main(parser.parse_args()) 
+  File "model.py", line 164, in main
+    lr_finder = LRFinder(model, optimizer, criterion, DEVICE)
+NameError: name 'LRFinder' is not defined

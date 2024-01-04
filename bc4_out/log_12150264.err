@@ -1,0 +1,2 @@
+/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/conv.py:303: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at  ../aten/src/ATen/native/Convolution.cpp:883.)
+  return F.conv1d(input, weight, bias, self.stride,

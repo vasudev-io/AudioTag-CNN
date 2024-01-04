@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "model.py", line 737, in <module>
+    main(parser.parse_args()) 
+  File "model.py", line 176, in main
+    trainer.train(
+  File "model.py", line 481, in train
+    logits = self.model.forward(batch)
+  File "model.py", line 322, in forward
+    x = F.relu(self.conv2(x))
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 307, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 303, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+RuntimeError: Calculated padded input size per channel: (6). Kernel size: (8). Kernel size can't be greater than actual input size

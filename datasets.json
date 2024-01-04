@@ -1,0 +1,111 @@
+{
+    "train": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/samples"
+    },
+    "val": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/samples"
+    },
+    "test": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/samples"
+    },
+    "trainSpec": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_1024_128"
+    },
+    "valSpec": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_1024_128"
+    },
+    "testSpec": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_1024_128"
+    },
+    "trainSpecChunk": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spec_annotations/trainSpecChunk.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessedChunked_1024_128"
+    },
+    "valSpecChunk": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spec_annotations/valSpecChunk.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessedChunked_1024_128"
+    },
+    "testSpecChunk": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spec_annotations/testSpecChunk.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessedChunked_1024_128"
+    },
+    "trainSpecChunk1": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spec_annotations/trainSpecChunk.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessedChunked_512_128"
+    },
+    "valSpecChunk1": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spec_annotations/valSpecChunk.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessedChunked_512_128"
+    },
+    "testSpecChunk1": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spec_annotations/testSpecChunk.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessedChunked_512_128"
+    },
+    "trainLocal": {
+        "annotations_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/annotations/train.pkl",
+        "samples_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/samples"
+    },
+    "valLocal": {
+        "annotations_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/annotations/val.pkl",
+        "samples_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/samples"
+    },
+    "testLocal": {
+        "annotations_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/annotations/test.pkl",
+        "samples_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/samples"
+    },
+    "trainLocalSpec": {
+        "annotations_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/annotations/train.pkl",
+        "samples_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/spectrograms/specPreprocessedChunked_1024_128"
+    },
+    "valLocalSpec": {
+        "annotations_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/annotations/val.pkl",
+        "samples_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/spectrograms/specPreprocessedChunked_1024_128"
+    },
+    "testLocalSpec": {
+        "annotations_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/annotations/test.pkl",
+        "samples_path": "/Users/vasudevmenon/ADL/cw/MagnaTagATune/spectrograms/specPreprocessedChunked_1024_128"
+    },
+    "trainSpec1": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_1024_164"
+    },
+    "valSpec1": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_1024_64"
+    },
+    "testSpec1": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_1024_64"
+    },
+    "trainSpec2": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_512_128"
+    },
+    "valSpec2": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_512_128"
+    },
+    "testSpec2": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_512_128"
+    },
+    "trainSpec3": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_512_64"
+    },
+    "valSpec3": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_512_64"
+    },
+    "testSpec3": {
+        "annotations_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl",
+        "samples_path": "/mnt/storage/scratch/ee20947/MagnaTagATune/spectrograms/specPreprocessed_512_64"
+    }
+
+}

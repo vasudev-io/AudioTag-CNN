@@ -1,0 +1,453 @@
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl...
+Writing logs to logs/CNN_sgd_momentum=0.95_learning_rate=0.05_conv_length=256_conv_stride=256_batch_size=20_epochs=30_weight_decay=1e-05_extension=RNN_run_11
+epoch: [0], step: [99/772], batch loss: 0.19525, batch accuracy: 60.12, data load time: 0.23762, step time: 0.05004
+epoch: [0], step: [199/772], batch loss: 0.18487, batch accuracy: 70.52, data load time: 0.23364, step time: 0.04750
+epoch: [0], step: [299/772], batch loss: 0.19655, batch accuracy: 55.19, data load time: 0.25236, step time: 0.04947
+epoch: [0], step: [399/772], batch loss: 0.23097, batch accuracy: 68.31, data load time: 0.24603, step time: 0.05172
+epoch: [0], step: [499/772], batch loss: 0.20379, batch accuracy: 58.71, data load time: 0.27366, step time: 0.04612
+epoch: [0], step: [599/772], batch loss: 0.19586, batch accuracy: 78.27, data load time: 0.28906, step time: 0.04956
+epoch: [0], step: [699/772], batch loss: 0.22874, batch accuracy: 64.89, data load time: 0.15245, step time: 0.05015
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7177, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7177
+
+-------------------------------------------------------------
+validation loss: 0.19606, accuracy: 71.77
+epoch: [1], step: [27/772], batch loss: 0.19920, batch accuracy: 71.88, data load time: 0.02951, step time: 0.05289
+epoch: [1], step: [127/772], batch loss: 0.19564, batch accuracy: 67.00, data load time: 0.05765, step time: 0.05213
+epoch: [1], step: [227/772], batch loss: 0.22692, batch accuracy: 66.00, data load time: 0.04354, step time: 0.05285
+epoch: [1], step: [327/772], batch loss: 0.22321, batch accuracy: 73.01, data load time: 0.07432, step time: 0.05278
+epoch: [1], step: [427/772], batch loss: 0.22826, batch accuracy: 69.29, data load time: 0.08136, step time: 0.05285
+epoch: [1], step: [527/772], batch loss: 0.22610, batch accuracy: 70.94, data load time: 0.11805, step time: 0.05014
+epoch: [1], step: [627/772], batch loss: 0.18407, batch accuracy: 68.04, data load time: 0.07432, step time: 0.05009
+epoch: [1], step: [727/772], batch loss: 0.20278, batch accuracy: 80.96, data load time: 0.12516, step time: 0.05156
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7459, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7459
+
+-------------------------------------------------------------
+validation loss: 0.18925, accuracy: 74.59
+epoch: [2], step: [55/772], batch loss: 0.17358, batch accuracy: 69.42, data load time: 0.02684, step time: 0.05021
+epoch: [2], step: [155/772], batch loss: 0.16746, batch accuracy: 72.08, data load time: 0.03601, step time: 0.04877
+epoch: [2], step: [255/772], batch loss: 0.22468, batch accuracy: 71.59, data load time: 0.05737, step time: 0.05385
+epoch: [2], step: [355/772], batch loss: 0.20739, batch accuracy: 69.42, data load time: 0.04977, step time: 0.05423
+epoch: [2], step: [455/772], batch loss: 0.18638, batch accuracy: 77.10, data load time: 0.07715, step time: 0.04906
+epoch: [2], step: [555/772], batch loss: 0.18758, batch accuracy: 76.21, data load time: 0.07238, step time: 0.05111
+epoch: [2], step: [655/772], batch loss: 0.19204, batch accuracy: 75.74, data load time: 0.06325, step time: 0.05237
+epoch: [2], step: [755/772], batch loss: 0.18501, batch accuracy: 77.49, data load time: 0.15638, step time: 0.05034
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7417, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7417
+
+-------------------------------------------------------------
+validation loss: 0.20224, accuracy: 74.17
+epoch: [3], step: [83/772], batch loss: 0.16006, batch accuracy: 75.07, data load time: 0.03796, step time: 0.04665
+epoch: [3], step: [183/772], batch loss: 0.21195, batch accuracy: 72.43, data load time: 0.07292, step time: 0.05487
+epoch: [3], step: [283/772], batch loss: 0.16668, batch accuracy: 76.06, data load time: 0.08227, step time: 0.04464
+epoch: [3], step: [383/772], batch loss: 0.18037, batch accuracy: 83.42, data load time: 0.13365, step time: 0.05231
+epoch: [3], step: [483/772], batch loss: 0.15590, batch accuracy: 81.17, data load time: 0.11061, step time: 0.04832
+epoch: [3], step: [583/772], batch loss: 0.18761, batch accuracy: 74.52, data load time: 0.18992, step time: 0.05224
+epoch: [3], step: [683/772], batch loss: 0.20824, batch accuracy: 79.42, data load time: 0.25299, step time: 0.05546
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7792, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7792
+
+-------------------------------------------------------------
+validation loss: 0.18219, accuracy: 77.92
+epoch: [4], step: [11/772], batch loss: 0.20848, batch accuracy: 75.67, data load time: 0.17122, step time: 0.05543
+epoch: [4], step: [111/772], batch loss: 0.20302, batch accuracy: 79.90, data load time: 0.16488, step time: 0.05156
+epoch: [4], step: [211/772], batch loss: 0.20226, batch accuracy: 74.50, data load time: 0.19260, step time: 0.05224
+epoch: [4], step: [311/772], batch loss: 0.19737, batch accuracy: 73.09, data load time: 0.24625, step time: 0.04742
+epoch: [4], step: [411/772], batch loss: 0.16100, batch accuracy: 76.90, data load time: 0.23990, step time: 0.04868
+epoch: [4], step: [511/772], batch loss: 0.16130, batch accuracy: 84.04, data load time: 0.31224, step time: 0.05078
+epoch: [4], step: [611/772], batch loss: 0.20873, batch accuracy: 79.64, data load time: 0.25794, step time: 0.05009
+epoch: [4], step: [711/772], batch loss: 0.17531, batch accuracy: 80.31, data load time: 0.23948, step time: 0.04935
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8076, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8076
+
+-------------------------------------------------------------
+validation loss: 0.17687, accuracy: 80.76
+epoch: [5], step: [39/772], batch loss: 0.16364, batch accuracy: 86.54, data load time: 0.20201, step time: 0.05152
+epoch: [5], step: [139/772], batch loss: 0.17049, batch accuracy: 80.30, data load time: 0.11140, step time: 0.05173
+epoch: [5], step: [239/772], batch loss: 0.21534, batch accuracy: 78.60, data load time: 0.20675, step time: 0.05234
+epoch: [5], step: [339/772], batch loss: 0.16695, batch accuracy: 86.98, data load time: 0.20591, step time: 0.05084
+epoch: [5], step: [439/772], batch loss: 0.19919, batch accuracy: 73.25, data load time: 0.19755, step time: 0.05243
+epoch: [5], step: [539/772], batch loss: 0.19392, batch accuracy: 80.18, data load time: 0.20846, step time: 0.05022
+epoch: [5], step: [639/772], batch loss: 0.16861, batch accuracy: 80.93, data load time: 0.21897, step time: 0.04953
+epoch: [5], step: [739/772], batch loss: 0.17580, batch accuracy: 80.85, data load time: 0.27209, step time: 0.05007
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.6471, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.6471
+
+-------------------------------------------------------------
+validation loss: 0.31816, accuracy: 64.71
+epoch: [6], step: [67/772], batch loss: 0.16754, batch accuracy: 85.52, data load time: 0.02348, step time: 0.05018
+epoch: [6], step: [167/772], batch loss: 0.17011, batch accuracy: 82.14, data load time: 0.10725, step time: 0.04768
+epoch: [6], step: [267/772], batch loss: 0.15232, batch accuracy: 84.81, data load time: 0.11472, step time: 0.05163
+epoch: [6], step: [367/772], batch loss: 0.16679, batch accuracy: 79.70, data load time: 0.19004, step time: 0.04966
+epoch: [6], step: [467/772], batch loss: 0.19649, batch accuracy: 82.35, data load time: 0.13928, step time: 0.05306
+epoch: [6], step: [567/772], batch loss: 0.20525, batch accuracy: 74.86, data load time: 0.12035, step time: 0.04754
+epoch: [6], step: [667/772], batch loss: 0.19554, batch accuracy: 79.49, data load time: 0.13798, step time: 0.05049
+epoch: [6], step: [767/772], batch loss: 0.20272, batch accuracy: 84.27, data load time: 0.25604, step time: 0.05437
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8353, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8353
+
+-------------------------------------------------------------
+validation loss: 0.16669, accuracy: 83.53
+epoch: [7], step: [95/772], batch loss: 0.16511, batch accuracy: 78.66, data load time: 0.03844, step time: 0.05181
+epoch: [7], step: [195/772], batch loss: 0.17205, batch accuracy: 78.74, data load time: 0.03825, step time: 0.04973
+epoch: [7], step: [295/772], batch loss: 0.21544, batch accuracy: 78.77, data load time: 0.05159, step time: 0.04903
+epoch: [7], step: [395/772], batch loss: 0.18883, batch accuracy: 79.10, data load time: 0.05772, step time: 0.04832
+epoch: [7], step: [495/772], batch loss: 0.14913, batch accuracy: 83.28, data load time: 0.15490, step time: 0.04838
+epoch: [7], step: [595/772], batch loss: 0.21227, batch accuracy: 84.24, data load time: 0.08056, step time: 0.05120
+epoch: [7], step: [695/772], batch loss: 0.20610, batch accuracy: 76.07, data load time: 0.21597, step time: 0.04615
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7185, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7185
+
+-------------------------------------------------------------
+validation loss: 0.23915, accuracy: 71.85
+epoch: [8], step: [23/772], batch loss: 0.15724, batch accuracy: 87.04, data load time: 0.02587, step time: 0.05036
+epoch: [8], step: [123/772], batch loss: 0.17816, batch accuracy: 84.43, data load time: 0.03616, step time: 0.05252
+epoch: [8], step: [223/772], batch loss: 0.16365, batch accuracy: 83.76, data load time: 0.06740, step time: 0.04626
+epoch: [8], step: [323/772], batch loss: 0.18056, batch accuracy: 80.14, data load time: 0.07422, step time: 0.04900
+epoch: [8], step: [423/772], batch loss: 0.14752, batch accuracy: 87.39, data load time: 0.07072, step time: 0.05046
+epoch: [8], step: [523/772], batch loss: 0.25025, batch accuracy: 76.63, data load time: 0.13407, step time: 0.05397
+epoch: [8], step: [623/772], batch loss: 0.17961, batch accuracy: 80.10, data load time: 0.11697, step time: 0.05020
+epoch: [8], step: [723/772], batch loss: 0.15413, batch accuracy: 81.86, data load time: 0.18587, step time: 0.04917
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7848, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7848
+
+-------------------------------------------------------------
+validation loss: 0.19961, accuracy: 78.48
+epoch: [9], step: [51/772], batch loss: 0.18198, batch accuracy: 81.17, data load time: 0.01759, step time: 0.05159
+epoch: [9], step: [151/772], batch loss: 0.18150, batch accuracy: 86.51, data load time: 0.01662, step time: 0.05310
+epoch: [9], step: [251/772], batch loss: 0.15900, batch accuracy: 82.23, data load time: 0.05848, step time: 0.04889
+epoch: [9], step: [351/772], batch loss: 0.22396, batch accuracy: 77.82, data load time: 0.07565, step time: 0.05078
+epoch: [9], step: [451/772], batch loss: 0.16006, batch accuracy: 85.90, data load time: 0.11420, step time: 0.05080
+epoch: [9], step: [551/772], batch loss: 0.15446, batch accuracy: 89.44, data load time: 0.15794, step time: 0.05227
+epoch: [9], step: [651/772], batch loss: 0.17190, batch accuracy: 84.87, data load time: 0.25539, step time: 0.05107
+epoch: [9], step: [751/772], batch loss: 0.15610, batch accuracy: 86.53, data load time: 0.25480, step time: 0.05152
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8012, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8012
+
+-------------------------------------------------------------
+validation loss: 0.20393, accuracy: 80.12
+epoch: [10], step: [79/772], batch loss: 0.15582, batch accuracy: 81.34, data load time: 0.07764, step time: 0.04956
+epoch: [10], step: [179/772], batch loss: 0.14345, batch accuracy: 85.45, data load time: 0.09722, step time: 0.04895
+epoch: [10], step: [279/772], batch loss: 0.16924, batch accuracy: 83.94, data load time: 0.19479, step time: 0.05172
+epoch: [10], step: [379/772], batch loss: 0.15643, batch accuracy: 86.34, data load time: 0.21109, step time: 0.04887
+epoch: [10], step: [479/772], batch loss: 0.18262, batch accuracy: 78.86, data load time: 0.17020, step time: 0.05024
+epoch: [10], step: [579/772], batch loss: 0.15422, batch accuracy: 84.00, data load time: 0.24651, step time: 0.05036
+epoch: [10], step: [679/772], batch loss: 0.18327, batch accuracy: 84.06, data load time: 0.22481, step time: 0.05244
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8415, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8415
+
+-------------------------------------------------------------
+validation loss: 0.16966, accuracy: 84.15
+epoch: [11], step: [7/772], batch loss: 0.17791, batch accuracy: 80.56, data load time: 0.05905, step time: 0.04767
+epoch: [11], step: [107/772], batch loss: 0.14370, batch accuracy: 87.36, data load time: 0.07168, step time: 0.04756
+epoch: [11], step: [207/772], batch loss: 0.18502, batch accuracy: 81.44, data load time: 0.11458, step time: 0.05201
+epoch: [11], step: [307/772], batch loss: 0.14499, batch accuracy: 84.54, data load time: 0.13775, step time: 0.04718
+epoch: [11], step: [407/772], batch loss: 0.16760, batch accuracy: 86.86, data load time: 0.14496, step time: 0.04826
+epoch: [11], step: [507/772], batch loss: 0.12602, batch accuracy: 92.28, data load time: 0.15338, step time: 0.04826
+epoch: [11], step: [607/772], batch loss: 0.14518, batch accuracy: 86.15, data load time: 0.16152, step time: 0.05383
+epoch: [11], step: [707/772], batch loss: 0.14661, batch accuracy: 88.61, data load time: 0.22285, step time: 0.05083
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7649, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7649
+
+-------------------------------------------------------------
+validation loss: 0.24027, accuracy: 76.49
+epoch: [12], step: [35/772], batch loss: 0.15956, batch accuracy: 86.31, data load time: 0.04582, step time: 0.04843
+epoch: [12], step: [135/772], batch loss: 0.14932, batch accuracy: 88.48, data load time: 0.04200, step time: 0.05208
+epoch: [12], step: [235/772], batch loss: 0.17064, batch accuracy: 83.56, data load time: 0.05712, step time: 0.05044
+epoch: [12], step: [335/772], batch loss: 0.16686, batch accuracy: 83.99, data load time: 0.05898, step time: 0.05043
+epoch: [12], step: [435/772], batch loss: 0.15154, batch accuracy: 87.91, data load time: 0.07929, step time: 0.04911
+epoch: [12], step: [535/772], batch loss: 0.13779, batch accuracy: 92.52, data load time: 0.21775, step time: 0.05115
+epoch: [12], step: [635/772], batch loss: 0.15533, batch accuracy: 89.86, data load time: 0.13130, step time: 0.05242
+epoch: [12], step: [735/772], batch loss: 0.14797, batch accuracy: 85.19, data load time: 0.16583, step time: 0.04415
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.7322, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.7322
+
+-------------------------------------------------------------
+validation loss: 0.27603, accuracy: 73.22
+epoch: [13], step: [63/772], batch loss: 0.12949, batch accuracy: 90.87, data load time: 0.03647, step time: 0.04765
+epoch: [13], step: [163/772], batch loss: 0.14006, batch accuracy: 88.37, data load time: 0.07956, step time: 0.05014
+epoch: [13], step: [263/772], batch loss: 0.19566, batch accuracy: 79.18, data load time: 0.14928, step time: 0.05078
+epoch: [13], step: [363/772], batch loss: 0.14747, batch accuracy: 89.08, data load time: 0.07996, step time: 0.05011
+epoch: [13], step: [463/772], batch loss: 0.13443, batch accuracy: 89.35, data load time: 0.24332, step time: 0.04953
+epoch: [13], step: [563/772], batch loss: 0.15552, batch accuracy: 91.51, data load time: 0.21792, step time: 0.05229
+epoch: [13], step: [663/772], batch loss: 0.13767, batch accuracy: 85.88, data load time: 0.27273, step time: 0.04953
+epoch: [13], step: [763/772], batch loss: 0.15050, batch accuracy: 89.93, data load time: 0.28381, step time: 0.05290
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8611, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8611
+
+-------------------------------------------------------------
+validation loss: 0.15320, accuracy: 86.11
+epoch: [14], step: [91/772], batch loss: 0.15734, batch accuracy: 89.97, data load time: 0.15271, step time: 0.05526
+epoch: [14], step: [191/772], batch loss: 0.16669, batch accuracy: 77.70, data load time: 0.14012, step time: 0.04955
+epoch: [14], step: [291/772], batch loss: 0.16557, batch accuracy: 89.89, data load time: 0.11439, step time: 0.05097
+epoch: [14], step: [391/772], batch loss: 0.15290, batch accuracy: 88.77, data load time: 0.26087, step time: 0.05226
+epoch: [14], step: [491/772], batch loss: 0.15139, batch accuracy: 88.72, data load time: 0.19445, step time: 0.04884
+epoch: [14], step: [591/772], batch loss: 0.16517, batch accuracy: 87.73, data load time: 0.21302, step time: 0.05149
+epoch: [14], step: [691/772], batch loss: 0.13770, batch accuracy: 90.47, data load time: 0.25978, step time: 0.05034
+Epoch 00015: reducing learning rate of group 0 to 2.5000e-03.
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8319, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8319
+
+-------------------------------------------------------------
+validation loss: 0.17446, accuracy: 83.19
+epoch: [15], step: [19/772], batch loss: 0.14684, batch accuracy: 84.93, data load time: 0.13419, step time: 0.04828
+epoch: [15], step: [119/772], batch loss: 0.19260, batch accuracy: 77.44, data load time: 0.07636, step time: 0.04752
+epoch: [15], step: [219/772], batch loss: 0.16977, batch accuracy: 86.44, data load time: 0.16392, step time: 0.05083
+epoch: [15], step: [319/772], batch loss: 0.15267, batch accuracy: 89.38, data load time: 0.16391, step time: 0.04939
+epoch: [15], step: [419/772], batch loss: 0.19104, batch accuracy: 88.37, data load time: 0.16484, step time: 0.05512
+epoch: [15], step: [519/772], batch loss: 0.17625, batch accuracy: 89.52, data load time: 0.19458, step time: 0.04879
+epoch: [15], step: [619/772], batch loss: 0.14766, batch accuracy: 86.37, data load time: 0.17233, step time: 0.04752
+epoch: [15], step: [719/772], batch loss: 0.16502, batch accuracy: 86.80, data load time: 0.15868, step time: 0.05088
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8665, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8665
+
+-------------------------------------------------------------
+validation loss: 0.14550, accuracy: 86.65
+epoch: [16], step: [47/772], batch loss: 0.15189, batch accuracy: 88.33, data load time: 0.03024, step time: 0.05231
+epoch: [16], step: [147/772], batch loss: 0.15993, batch accuracy: 83.59, data load time: 0.03293, step time: 0.05033
+epoch: [16], step: [247/772], batch loss: 0.15839, batch accuracy: 89.83, data load time: 0.08654, step time: 0.05152
+epoch: [16], step: [347/772], batch loss: 0.13159, batch accuracy: 89.34, data load time: 0.04279, step time: 0.04887
+epoch: [16], step: [447/772], batch loss: 0.11825, batch accuracy: 95.26, data load time: 0.13167, step time: 0.05030
+epoch: [16], step: [547/772], batch loss: 0.12920, batch accuracy: 90.69, data load time: 0.06007, step time: 0.04413
+epoch: [16], step: [647/772], batch loss: 0.14184, batch accuracy: 87.79, data load time: 0.05495, step time: 0.05166
+epoch: [16], step: [747/772], batch loss: 0.16734, batch accuracy: 85.85, data load time: 0.08288, step time: 0.05308
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8676, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8676
+
+-------------------------------------------------------------
+validation loss: 0.14544, accuracy: 86.76
+epoch: [17], step: [75/772], batch loss: 0.15242, batch accuracy: 83.85, data load time: 0.02326, step time: 0.05037
+epoch: [17], step: [175/772], batch loss: 0.14504, batch accuracy: 88.78, data load time: 0.02506, step time: 0.05494
+epoch: [17], step: [275/772], batch loss: 0.15742, batch accuracy: 87.57, data load time: 0.03798, step time: 0.04860
+epoch: [17], step: [375/772], batch loss: 0.13716, batch accuracy: 90.59, data load time: 0.02539, step time: 0.05161
+epoch: [17], step: [475/772], batch loss: 0.13892, batch accuracy: 92.00, data load time: 0.02930, step time: 0.05146
+epoch: [17], step: [575/772], batch loss: 0.16691, batch accuracy: 83.81, data load time: 0.03175, step time: 0.05282
+epoch: [17], step: [675/772], batch loss: 0.15394, batch accuracy: 88.38, data load time: 0.05428, step time: 0.05621
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8678, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8678
+
+-------------------------------------------------------------
+validation loss: 0.14486, accuracy: 86.78
+epoch: [18], step: [3/772], batch loss: 0.17638, batch accuracy: 79.96, data load time: 0.02476, step time: 0.05457
+epoch: [18], step: [103/772], batch loss: 0.13341, batch accuracy: 89.94, data load time: 0.02534, step time: 0.04949
+epoch: [18], step: [203/772], batch loss: 0.14739, batch accuracy: 88.38, data load time: 0.02436, step time: 0.04742
+epoch: [18], step: [303/772], batch loss: 0.14662, batch accuracy: 89.32, data load time: 0.02725, step time: 0.05080
+epoch: [18], step: [403/772], batch loss: 0.11990, batch accuracy: 90.91, data load time: 0.03627, step time: 0.04805
+epoch: [18], step: [503/772], batch loss: 0.12951, batch accuracy: 91.25, data load time: 0.04486, step time: 0.04806
+epoch: [18], step: [603/772], batch loss: 0.12542, batch accuracy: 89.88, data load time: 0.03156, step time: 0.04797
+epoch: [18], step: [703/772], batch loss: 0.16546, batch accuracy: 84.75, data load time: 0.03603, step time: 0.05006
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8686, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8686
+
+-------------------------------------------------------------
+validation loss: 0.14549, accuracy: 86.86
+epoch: [19], step: [31/772], batch loss: 0.13421, batch accuracy: 89.69, data load time: 0.02639, step time: 0.04887
+epoch: [19], step: [131/772], batch loss: 0.14803, batch accuracy: 90.79, data load time: 0.02516, step time: 0.05303
+epoch: [19], step: [231/772], batch loss: 0.14408, batch accuracy: 88.10, data load time: 0.04592, step time: 0.05144
+epoch: [19], step: [331/772], batch loss: 0.12992, batch accuracy: 86.31, data load time: 0.03049, step time: 0.05076
+epoch: [19], step: [431/772], batch loss: 0.16116, batch accuracy: 89.59, data load time: 0.04465, step time: 0.05368
+epoch: [19], step: [531/772], batch loss: 0.15581, batch accuracy: 86.68, data load time: 0.04160, step time: 0.05087
+epoch: [19], step: [631/772], batch loss: 0.13807, batch accuracy: 89.25, data load time: 0.03222, step time: 0.05090
+epoch: [19], step: [731/772], batch loss: 0.14311, batch accuracy: 89.64, data load time: 0.03168, step time: 0.05211
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8693, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8693
+
+-------------------------------------------------------------
+validation loss: 0.14378, accuracy: 86.93
+epoch: [20], step: [59/772], batch loss: 0.16957, batch accuracy: 84.50, data load time: 0.02016, step time: 0.05016
+epoch: [20], step: [159/772], batch loss: 0.22331, batch accuracy: 79.23, data load time: 0.02360, step time: 0.05199
+epoch: [20], step: [259/772], batch loss: 0.12704, batch accuracy: 86.58, data load time: 0.02527, step time: 0.04650
+epoch: [20], step: [359/772], batch loss: 0.11943, batch accuracy: 88.36, data load time: 0.02780, step time: 0.04746
+epoch: [20], step: [459/772], batch loss: 0.14920, batch accuracy: 88.47, data load time: 0.03014, step time: 0.05123
+epoch: [20], step: [559/772], batch loss: 0.16224, batch accuracy: 82.23, data load time: 0.03059, step time: 0.05361
+epoch: [20], step: [659/772], batch loss: 0.15266, batch accuracy: 85.44, data load time: 0.03399, step time: 0.05066
+epoch: [20], step: [759/772], batch loss: 0.12939, batch accuracy: 92.11, data load time: 0.03250, step time: 0.05267
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8682, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8682
+
+-------------------------------------------------------------
+validation loss: 0.14558, accuracy: 86.82
+epoch: [21], step: [87/772], batch loss: 0.15621, batch accuracy: 86.65, data load time: 0.02307, step time: 0.04951
+epoch: [21], step: [187/772], batch loss: 0.13119, batch accuracy: 89.82, data load time: 0.02766, step time: 0.04951
+epoch: [21], step: [287/772], batch loss: 0.15636, batch accuracy: 89.56, data load time: 0.02588, step time: 0.05011
+epoch: [21], step: [387/772], batch loss: 0.11334, batch accuracy: 92.42, data load time: 0.02952, step time: 0.04453
+epoch: [21], step: [487/772], batch loss: 0.15710, batch accuracy: 85.35, data load time: 0.02657, step time: 0.05131
+epoch: [21], step: [587/772], batch loss: 0.14406, batch accuracy: 89.95, data load time: 0.02948, step time: 0.05105
+epoch: [21], step: [687/772], batch loss: 0.12740, batch accuracy: 89.55, data load time: 0.02902, step time: 0.04885
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8700, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8700
+
+-------------------------------------------------------------
+validation loss: 0.14316, accuracy: 87.00
+epoch: [22], step: [15/772], batch loss: 0.13668, batch accuracy: 89.00, data load time: 0.02125, step time: 0.04807
+epoch: [22], step: [115/772], batch loss: 0.15301, batch accuracy: 87.83, data load time: 0.02555, step time: 0.04945
+epoch: [22], step: [215/772], batch loss: 0.13576, batch accuracy: 93.75, data load time: 0.02359, step time: 0.05176
+epoch: [22], step: [315/772], batch loss: 0.13295, batch accuracy: 90.05, data load time: 0.02257, step time: 0.05280
+epoch: [22], step: [415/772], batch loss: 0.18314, batch accuracy: 86.68, data load time: 0.02186, step time: 0.05327
+epoch: [22], step: [515/772], batch loss: 0.14989, batch accuracy: 87.58, data load time: 0.02838, step time: 0.04792
+epoch: [22], step: [615/772], batch loss: 0.13355, batch accuracy: 87.23, data load time: 0.03124, step time: 0.05155
+epoch: [22], step: [715/772], batch loss: 0.18113, batch accuracy: 88.38, data load time: 0.02990, step time: 0.05494
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8684, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8684
+
+-------------------------------------------------------------
+validation loss: 0.14458, accuracy: 86.84
+epoch: [23], step: [43/772], batch loss: 0.14194, batch accuracy: 89.15, data load time: 0.02605, step time: 0.05018
+epoch: [23], step: [143/772], batch loss: 0.13815, batch accuracy: 89.88, data load time: 0.02654, step time: 0.05034
+epoch: [23], step: [243/772], batch loss: 0.15489, batch accuracy: 86.62, data load time: 0.02449, step time: 0.05248
+epoch: [23], step: [343/772], batch loss: 0.16998, batch accuracy: 89.60, data load time: 0.02635, step time: 0.05408
+epoch: [23], step: [443/772], batch loss: 0.12521, batch accuracy: 88.64, data load time: 0.02770, step time: 0.04616
+epoch: [23], step: [543/772], batch loss: 0.12384, batch accuracy: 89.41, data load time: 0.03100, step time: 0.04606
+epoch: [23], step: [643/772], batch loss: 0.14611, batch accuracy: 89.94, data load time: 0.08164, step time: 0.05238
+epoch: [23], step: [743/772], batch loss: 0.15828, batch accuracy: 86.43, data load time: 0.09835, step time: 0.04687
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8697, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8697
+
+-------------------------------------------------------------
+validation loss: 0.14367, accuracy: 86.97
+epoch: [24], step: [71/772], batch loss: 0.12240, batch accuracy: 90.74, data load time: 0.02388, step time: 0.04997
+epoch: [24], step: [171/772], batch loss: 0.13163, batch accuracy: 92.01, data load time: 0.04906, step time: 0.04737
+epoch: [24], step: [271/772], batch loss: 0.13252, batch accuracy: 89.60, data load time: 0.05169, step time: 0.04928
+epoch: [24], step: [371/772], batch loss: 0.18166, batch accuracy: 80.79, data load time: 0.07152, step time: 0.05158
+epoch: [24], step: [471/772], batch loss: 0.15903, batch accuracy: 89.71, data load time: 0.02804, step time: 0.05281
+epoch: [24], step: [571/772], batch loss: 0.14620, batch accuracy: 85.40, data load time: 0.02636, step time: 0.04724
+epoch: [24], step: [671/772], batch loss: 0.12677, batch accuracy: 86.79, data load time: 0.05154, step time: 0.04808
+epoch: [24], step: [771/772], batch loss: 0.18960, batch accuracy: 76.96, data load time: 0.00785, step time: 0.03284
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8703, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8703
+
+-------------------------------------------------------------
+validation loss: 0.14424, accuracy: 87.03
+epoch: [25], step: [99/772], batch loss: 0.12338, batch accuracy: 92.17, data load time: 0.03765, step time: 0.04664
+epoch: [25], step: [199/772], batch loss: 0.13419, batch accuracy: 91.93, data load time: 0.02337, step time: 0.05020
+epoch: [25], step: [299/772], batch loss: 0.14550, batch accuracy: 87.39, data load time: 0.03732, step time: 0.04958
+epoch: [25], step: [399/772], batch loss: 0.15044, batch accuracy: 85.75, data load time: 0.04888, step time: 0.04874
+epoch: [25], step: [499/772], batch loss: 0.15366, batch accuracy: 90.49, data load time: 0.04657, step time: 0.05171
+epoch: [25], step: [599/772], batch loss: 0.14721, batch accuracy: 88.09, data load time: 0.02839, step time: 0.05105
+epoch: [25], step: [699/772], batch loss: 0.11979, batch accuracy: 90.65, data load time: 0.09452, step time: 0.04476
+Epoch 00026: reducing learning rate of group 0 to 1.2500e-04.
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8686, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8686
+
+-------------------------------------------------------------
+validation loss: 0.14429, accuracy: 86.86
+epoch: [26], step: [27/772], batch loss: 0.14451, batch accuracy: 89.64, data load time: 0.02550, step time: 0.05368
+epoch: [26], step: [127/772], batch loss: 0.13093, batch accuracy: 93.29, data load time: 0.02442, step time: 0.04745
+epoch: [26], step: [227/772], batch loss: 0.15914, batch accuracy: 88.99, data load time: 0.02711, step time: 0.05286
+epoch: [26], step: [327/772], batch loss: 0.16580, batch accuracy: 92.21, data load time: 0.02767, step time: 0.05426
+epoch: [26], step: [427/772], batch loss: 0.13267, batch accuracy: 89.25, data load time: 0.02764, step time: 0.05063
+epoch: [26], step: [527/772], batch loss: 0.14237, batch accuracy: 84.60, data load time: 0.04541, step time: 0.04603
+epoch: [26], step: [627/772], batch loss: 0.16837, batch accuracy: 82.61, data load time: 0.03032, step time: 0.05312
+epoch: [26], step: [727/772], batch loss: 0.12967, batch accuracy: 92.49, data load time: 0.03229, step time: 0.04823
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8708, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8708
+
+-------------------------------------------------------------
+validation loss: 0.14289, accuracy: 87.08
+epoch: [27], step: [55/772], batch loss: 0.14766, batch accuracy: 88.95, data load time: 0.04611, step time: 0.04895
+epoch: [27], step: [155/772], batch loss: 0.12170, batch accuracy: 88.67, data load time: 0.02807, step time: 0.04693
+epoch: [27], step: [255/772], batch loss: 0.15431, batch accuracy: 88.72, data load time: 0.02648, step time: 0.04829
+epoch: [27], step: [355/772], batch loss: 0.19298, batch accuracy: 88.91, data load time: 0.02725, step time: 0.04900
+epoch: [27], step: [455/772], batch loss: 0.15497, batch accuracy: 87.54, data load time: 0.02735, step time: 0.05457
+epoch: [27], step: [555/772], batch loss: 0.15404, batch accuracy: 90.41, data load time: 0.02884, step time: 0.05382
+epoch: [27], step: [655/772], batch loss: 0.16077, batch accuracy: 86.45, data load time: 0.04311, step time: 0.05031
+epoch: [27], step: [755/772], batch loss: 0.13695, batch accuracy: 89.79, data load time: 0.02973, step time: 0.04976
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8683, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8683
+
+-------------------------------------------------------------
+validation loss: 0.14441, accuracy: 86.83
+epoch: [28], step: [83/772], batch loss: 0.16288, batch accuracy: 85.13, data load time: 0.02059, step time: 0.04939
+epoch: [28], step: [183/772], batch loss: 0.13439, batch accuracy: 90.27, data load time: 0.02184, step time: 0.04947
+epoch: [28], step: [283/772], batch loss: 0.16761, batch accuracy: 88.79, data load time: 0.02844, step time: 0.05434
+epoch: [28], step: [383/772], batch loss: 0.12875, batch accuracy: 91.97, data load time: 0.03017, step time: 0.05008
+epoch: [28], step: [483/772], batch loss: 0.14621, batch accuracy: 91.92, data load time: 0.03170, step time: 0.05297
+epoch: [28], step: [583/772], batch loss: 0.12172, batch accuracy: 90.16, data load time: 0.02993, step time: 0.04942
+epoch: [28], step: [683/772], batch loss: 0.15757, batch accuracy: 84.85, data load time: 0.03071, step time: 0.05107
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8709, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8709
+
+-------------------------------------------------------------
+validation loss: 0.14318, accuracy: 87.09
+epoch: [29], step: [11/772], batch loss: 0.15721, batch accuracy: 92.27, data load time: 0.02386, step time: 0.05520
+epoch: [29], step: [111/772], batch loss: 0.13805, batch accuracy: 86.56, data load time: 0.02003, step time: 0.04755
+epoch: [29], step: [211/772], batch loss: 0.14192, batch accuracy: 88.56, data load time: 0.02479, step time: 0.04945
+epoch: [29], step: [311/772], batch loss: 0.16827, batch accuracy: 85.77, data load time: 0.03218, step time: 0.05232
+epoch: [29], step: [411/772], batch loss: 0.15179, batch accuracy: 90.20, data load time: 0.02626, step time: 0.05085
+epoch: [29], step: [511/772], batch loss: 0.13594, batch accuracy: 90.96, data load time: 0.03053, step time: 0.05023
+epoch: [29], step: [611/772], batch loss: 0.14659, batch accuracy: 91.00, data load time: 0.04721, step time: 0.05169
+epoch: [29], step: [711/772], batch loss: 0.12646, batch accuracy: 87.80, data load time: 0.04972, step time: 0.04817
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8689, Class Labels: {'class_labels_dict': {'0': 'ambient', '1': 'baroque', '2': 'bass', '3': 'beat', '4': 'cello', '5': 'chant', '6': 'choir', '7': 'classical', '8': 'country', '9': 'dance', '10': 'drum', '11': 'eastern', '12': 'electro', '13': 'fast', '14': 'female', '15': 'flute', '16': 'folk', '17': 'foreign', '18': 'guitar', '19': 'hard', '20': 'harp', '21': 'harpsichord', '22': 'heavy', '23': 'india', '24': 'jazz', '25': 'loud', '26': 'male', '27': 'modern', '28': 'new age', '29': 'no beat', '30': 'no piano', '31': 'no singer', '32': 'opera', '33': 'orchestra', '34': 'piano', '35': 'pop', '36': 'quiet', '37': 'rock', '38': 'singer', '39': 'sitar', '40': 'slow', '41': 'soft', '42': 'solo', '43': 'strange', '44': 'string', '45': 'synth', '46': 'techno', '47': 'trance', '48': 'violin', '49': 'vocal'}}, Label AUC Score: 0.8689
+
+-------------------------------------------------------------
+validation loss: 0.14406, accuracy: 86.89
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+
+-------------------------------------------------------------
+validation loss: 0.41567, accuracy: 87.62

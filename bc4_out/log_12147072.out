@@ -1,0 +1,4 @@
+Loading data from train_dataset
+Loading data from val_dataset
+Loading data from test_dataset
+Writing logs to logs/CNN_sgd_momentum=0.9_learning_rate=0.2_conv_length=1024_conv_stride=1024_batch_size=10_epochs=20_weight_decay=1e-05_model=BaseCNNNonInitialised_run_0

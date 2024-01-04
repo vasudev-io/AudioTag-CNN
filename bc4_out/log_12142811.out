@@ -1,0 +1,684 @@
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl...
+Writing logs to logs/CNN_sgd_momentum=0.9_learning_rate=0.2_conv_length=256_conv_stride=256_batch_size=10_epochs=30_weight_decay=1e-05_extension=ExtraCNN_run_0
+epoch: [0], step: [99/1543], batch loss: 0.19929, batch accuracy: 71.84, data load time: 0.10097, step time: 0.07250
+epoch: [0], step: [199/1543], batch loss: 0.17364, batch accuracy: 74.50, data load time: 0.06569, step time: 0.06830
+epoch: [0], step: [299/1543], batch loss: 0.22653, batch accuracy: 83.03, data load time: 0.08160, step time: 0.07289
+epoch: [0], step: [399/1543], batch loss: 0.21181, batch accuracy: 61.36, data load time: 0.06582, step time: 0.06906
+epoch: [0], step: [499/1543], batch loss: 0.25569, batch accuracy: 55.32, data load time: 0.01175, step time: 0.06770
+epoch: [0], step: [599/1543], batch loss: 0.26883, batch accuracy: 56.93, data load time: 0.03762, step time: 0.07256
+epoch: [0], step: [699/1543], batch loss: 0.21419, batch accuracy: 71.78, data load time: 0.02903, step time: 0.06968
+epoch: [0], step: [799/1543], batch loss: 0.20693, batch accuracy: 82.75, data load time: 0.01470, step time: 0.07460
+epoch: [0], step: [899/1543], batch loss: 0.21947, batch accuracy: 62.19, data load time: 0.01565, step time: 0.07054
+epoch: [0], step: [999/1543], batch loss: 0.25554, batch accuracy: 75.40, data load time: 0.01073, step time: 0.07037
+epoch: [0], step: [1099/1543], batch loss: 0.18907, batch accuracy: 70.50, data load time: 0.01355, step time: 0.07119
+epoch: [0], step: [1199/1543], batch loss: 0.22118, batch accuracy: 75.68, data load time: 0.01443, step time: 0.07382
+epoch: [0], step: [1299/1543], batch loss: 0.19951, batch accuracy: 81.74, data load time: 0.01235, step time: 0.07041
+epoch: [0], step: [1399/1543], batch loss: 0.20297, batch accuracy: 80.04, data load time: 0.01569, step time: 0.07310
+epoch: [0], step: [1499/1543], batch loss: 0.20830, batch accuracy: 79.83, data load time: 0.01373, step time: 0.07253
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.7823
+
+-------------------------------------------------------------
+validation loss: 0.18863, accuracy: 78.23
+epoch: [1], step: [56/1543], batch loss: 0.22185, batch accuracy: 82.00, data load time: 0.00767, step time: 0.07258
+epoch: [1], step: [156/1543], batch loss: 0.17991, batch accuracy: 74.45, data load time: 0.01488, step time: 0.06828
+epoch: [1], step: [256/1543], batch loss: 0.20321, batch accuracy: 83.46, data load time: 0.01002, step time: 0.06847
+epoch: [1], step: [356/1543], batch loss: 0.20027, batch accuracy: 79.83, data load time: 0.01554, step time: 0.07184
+epoch: [1], step: [456/1543], batch loss: 0.24966, batch accuracy: 81.01, data load time: 0.01126, step time: 0.07045
+epoch: [1], step: [556/1543], batch loss: 0.19561, batch accuracy: 75.45, data load time: 0.00987, step time: 0.06776
+epoch: [1], step: [656/1543], batch loss: 0.16254, batch accuracy: 78.91, data load time: 0.00777, step time: 0.07260
+epoch: [1], step: [756/1543], batch loss: 0.19548, batch accuracy: 81.01, data load time: 0.01115, step time: 0.07486
+epoch: [1], step: [856/1543], batch loss: 0.20004, batch accuracy: 71.87, data load time: 0.01513, step time: 0.07057
+epoch: [1], step: [956/1543], batch loss: 0.16449, batch accuracy: 84.74, data load time: 0.00750, step time: 0.07070
+epoch: [1], step: [1056/1543], batch loss: 0.22664, batch accuracy: 79.70, data load time: 0.01143, step time: 0.07485
+epoch: [1], step: [1156/1543], batch loss: 0.15437, batch accuracy: 93.21, data load time: 0.01455, step time: 0.06688
+epoch: [1], step: [1256/1543], batch loss: 0.20370, batch accuracy: 72.57, data load time: 0.01420, step time: 0.07131
+epoch: [1], step: [1356/1543], batch loss: 0.15668, batch accuracy: 81.94, data load time: 0.01177, step time: 0.07010
+epoch: [1], step: [1456/1543], batch loss: 0.14164, batch accuracy: 87.17, data load time: 0.00861, step time: 0.06973
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.7651
+
+-------------------------------------------------------------
+validation loss: 0.21239, accuracy: 76.51
+epoch: [2], step: [13/1543], batch loss: 0.18029, batch accuracy: 79.95, data load time: 0.01079, step time: 0.07139
+epoch: [2], step: [113/1543], batch loss: 0.15263, batch accuracy: 83.46, data load time: 0.01330, step time: 0.07390
+epoch: [2], step: [213/1543], batch loss: 0.16242, batch accuracy: 86.68, data load time: 0.01359, step time: 0.07266
+epoch: [2], step: [313/1543], batch loss: 0.19446, batch accuracy: 72.65, data load time: 0.01430, step time: 0.06992
+epoch: [2], step: [413/1543], batch loss: 0.14717, batch accuracy: 88.16, data load time: 0.01306, step time: 0.07145
+epoch: [2], step: [513/1543], batch loss: 0.16138, batch accuracy: 85.00, data load time: 0.01259, step time: 0.07127
+epoch: [2], step: [613/1543], batch loss: 0.14718, batch accuracy: 89.77, data load time: 0.01279, step time: 0.07125
+epoch: [2], step: [713/1543], batch loss: 0.14899, batch accuracy: 85.18, data load time: 0.01367, step time: 0.06897
+epoch: [2], step: [813/1543], batch loss: 0.16557, batch accuracy: 87.77, data load time: 0.01210, step time: 0.06852
+epoch: [2], step: [913/1543], batch loss: 0.15818, batch accuracy: 85.07, data load time: 0.01561, step time: 0.06992
+epoch: [2], step: [1013/1543], batch loss: 0.15586, batch accuracy: 82.53, data load time: 0.01527, step time: 0.06709
+epoch: [2], step: [1113/1543], batch loss: 0.15390, batch accuracy: 93.03, data load time: 0.01265, step time: 0.07273
+epoch: [2], step: [1213/1543], batch loss: 0.16471, batch accuracy: 84.84, data load time: 0.01110, step time: 0.07132
+epoch: [2], step: [1313/1543], batch loss: 0.16407, batch accuracy: 86.01, data load time: 0.01313, step time: 0.06931
+epoch: [2], step: [1413/1543], batch loss: 0.24386, batch accuracy: 72.76, data load time: 0.01211, step time: 0.07200
+epoch: [2], step: [1513/1543], batch loss: 0.17360, batch accuracy: 76.84, data load time: 0.01343, step time: 0.07207
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8262
+
+-------------------------------------------------------------
+validation loss: 0.16689, accuracy: 82.62
+epoch: [3], step: [70/1543], batch loss: 0.14633, batch accuracy: 89.95, data load time: 0.01109, step time: 0.07155
+epoch: [3], step: [170/1543], batch loss: 0.18964, batch accuracy: 89.39, data load time: 0.00936, step time: 0.07257
+epoch: [3], step: [270/1543], batch loss: 0.14189, batch accuracy: 87.81, data load time: 0.01701, step time: 0.06897
+epoch: [3], step: [370/1543], batch loss: 0.13046, batch accuracy: 91.89, data load time: 0.01216, step time: 0.06746
+epoch: [3], step: [470/1543], batch loss: 0.13764, batch accuracy: 89.77, data load time: 0.01106, step time: 0.06970
+epoch: [3], step: [570/1543], batch loss: 0.12809, batch accuracy: 87.94, data load time: 0.01410, step time: 0.06826
+epoch: [3], step: [670/1543], batch loss: 0.18015, batch accuracy: 67.03, data load time: 0.01202, step time: 0.06852
+epoch: [3], step: [770/1543], batch loss: 0.15506, batch accuracy: 88.91, data load time: 0.01194, step time: 0.06796
+epoch: [3], step: [870/1543], batch loss: 0.17993, batch accuracy: 84.22, data load time: 0.01368, step time: 0.06680
+epoch: [3], step: [970/1543], batch loss: 0.17581, batch accuracy: 84.29, data load time: 0.01040, step time: 0.06970
+epoch: [3], step: [1070/1543], batch loss: 0.15045, batch accuracy: 89.30, data load time: 0.00839, step time: 0.07030
+epoch: [3], step: [1170/1543], batch loss: 0.14832, batch accuracy: 85.70, data load time: 0.01381, step time: 0.06764
+epoch: [3], step: [1270/1543], batch loss: 0.17393, batch accuracy: 88.46, data load time: 0.00968, step time: 0.07332
+epoch: [3], step: [1370/1543], batch loss: 0.17305, batch accuracy: 80.88, data load time: 0.01150, step time: 0.06970
+epoch: [3], step: [1470/1543], batch loss: 0.16020, batch accuracy: 89.11, data load time: 0.01120, step time: 0.06981
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8168
+
+-------------------------------------------------------------
+validation loss: 0.17518, accuracy: 81.68
+epoch: [4], step: [27/1543], batch loss: 0.12981, batch accuracy: 86.84, data load time: 0.01121, step time: 0.06994
+epoch: [4], step: [127/1543], batch loss: 0.16028, batch accuracy: 87.41, data load time: 0.01612, step time: 0.07188
+epoch: [4], step: [227/1543], batch loss: 0.14804, batch accuracy: 90.58, data load time: 0.01489, step time: 0.07182
+epoch: [4], step: [327/1543], batch loss: 0.13417, batch accuracy: 89.82, data load time: 0.01196, step time: 0.06748
+epoch: [4], step: [427/1543], batch loss: 0.18760, batch accuracy: 80.78, data load time: 0.01447, step time: 0.07121
+epoch: [4], step: [527/1543], batch loss: 0.16778, batch accuracy: 89.52, data load time: 0.01092, step time: 0.06906
+epoch: [4], step: [627/1543], batch loss: 0.17270, batch accuracy: 89.52, data load time: 0.01484, step time: 0.06898
+epoch: [4], step: [727/1543], batch loss: 0.17501, batch accuracy: 83.31, data load time: 0.00949, step time: 0.06995
+epoch: [4], step: [827/1543], batch loss: 0.10877, batch accuracy: 92.66, data load time: 0.01370, step time: 0.06705
+epoch: [4], step: [927/1543], batch loss: 0.13907, batch accuracy: 84.68, data load time: 0.01216, step time: 0.06767
+epoch: [4], step: [1027/1543], batch loss: 0.10656, batch accuracy: 90.94, data load time: 0.00672, step time: 0.06989
+epoch: [4], step: [1127/1543], batch loss: 0.13624, batch accuracy: 88.60, data load time: 0.01244, step time: 0.06630
+epoch: [4], step: [1227/1543], batch loss: 0.19358, batch accuracy: 83.30, data load time: 0.00881, step time: 0.06990
+epoch: [4], step: [1327/1543], batch loss: 0.20265, batch accuracy: 88.64, data load time: 0.01222, step time: 0.07626
+epoch: [4], step: [1427/1543], batch loss: 0.17419, batch accuracy: 87.12, data load time: 0.01050, step time: 0.07093
+epoch: [4], step: [1527/1543], batch loss: 0.11815, batch accuracy: 86.64, data load time: 0.01205, step time: 0.06766
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8547
+
+-------------------------------------------------------------
+validation loss: 0.15635, accuracy: 85.47
+epoch: [5], step: [84/1543], batch loss: 0.12659, batch accuracy: 92.94, data load time: 0.00939, step time: 0.06692
+epoch: [5], step: [184/1543], batch loss: 0.12271, batch accuracy: 95.14, data load time: 0.01302, step time: 0.06995
+epoch: [5], step: [284/1543], batch loss: 0.17269, batch accuracy: 88.25, data load time: 0.01453, step time: 0.07205
+epoch: [5], step: [384/1543], batch loss: 0.14294, batch accuracy: 86.82, data load time: 0.01324, step time: 0.06934
+epoch: [5], step: [484/1543], batch loss: 0.15317, batch accuracy: 89.72, data load time: 0.01239, step time: 0.06839
+epoch: [5], step: [584/1543], batch loss: 0.15634, batch accuracy: 87.74, data load time: 0.01474, step time: 0.06845
+epoch: [5], step: [684/1543], batch loss: 0.13776, batch accuracy: 89.16, data load time: 0.01315, step time: 0.06852
+epoch: [5], step: [784/1543], batch loss: 0.14054, batch accuracy: 85.32, data load time: 0.00926, step time: 0.06489
+epoch: [5], step: [884/1543], batch loss: 0.16600, batch accuracy: 88.27, data load time: 0.00932, step time: 0.07058
+epoch: [5], step: [984/1543], batch loss: 0.16643, batch accuracy: 87.59, data load time: 0.00915, step time: 0.07154
+epoch: [5], step: [1084/1543], batch loss: 0.12663, batch accuracy: 92.79, data load time: 0.01341, step time: 0.07054
+epoch: [5], step: [1184/1543], batch loss: 0.14286, batch accuracy: 92.55, data load time: 0.01345, step time: 0.06861
+epoch: [5], step: [1284/1543], batch loss: 0.14189, batch accuracy: 91.77, data load time: 0.01208, step time: 0.07205
+epoch: [5], step: [1384/1543], batch loss: 0.14660, batch accuracy: 90.31, data load time: 0.01324, step time: 0.07120
+epoch: [5], step: [1484/1543], batch loss: 0.12293, batch accuracy: 96.25, data load time: 0.01413, step time: 0.07413
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8461
+
+-------------------------------------------------------------
+validation loss: 0.16903, accuracy: 84.61
+epoch: [6], step: [41/1543], batch loss: 0.14675, batch accuracy: 93.02, data load time: 0.01039, step time: 0.07538
+epoch: [6], step: [141/1543], batch loss: 0.18008, batch accuracy: 88.18, data load time: 0.01251, step time: 0.07147
+epoch: [6], step: [241/1543], batch loss: 0.15515, batch accuracy: 88.17, data load time: 0.01649, step time: 0.07380
+epoch: [6], step: [341/1543], batch loss: 0.20633, batch accuracy: 87.16, data load time: 0.01426, step time: 0.07690
+epoch: [6], step: [441/1543], batch loss: 0.14507, batch accuracy: 91.23, data load time: 0.01348, step time: 0.06760
+epoch: [6], step: [541/1543], batch loss: 0.15704, batch accuracy: 89.38, data load time: 0.01466, step time: 0.07339
+epoch: [6], step: [641/1543], batch loss: 0.16944, batch accuracy: 91.95, data load time: 0.01312, step time: 0.06981
+epoch: [6], step: [741/1543], batch loss: 0.12119, batch accuracy: 93.07, data load time: 0.00890, step time: 0.06767
+epoch: [6], step: [841/1543], batch loss: 0.12234, batch accuracy: 87.53, data load time: 0.01310, step time: 0.06616
+epoch: [6], step: [941/1543], batch loss: 0.11267, batch accuracy: 94.39, data load time: 0.01300, step time: 0.07190
+epoch: [6], step: [1041/1543], batch loss: 0.19890, batch accuracy: 84.45, data load time: 0.00851, step time: 0.07129
+epoch: [6], step: [1141/1543], batch loss: 0.23170, batch accuracy: 82.68, data load time: 0.01355, step time: 0.07120
+epoch: [6], step: [1241/1543], batch loss: 0.25678, batch accuracy: 79.73, data load time: 0.00898, step time: 0.07266
+epoch: [6], step: [1341/1543], batch loss: 0.19064, batch accuracy: 82.08, data load time: 0.01409, step time: 0.07416
+epoch: [6], step: [1441/1543], batch loss: 0.15713, batch accuracy: 75.43, data load time: 0.01401, step time: 0.06764
+epoch: [6], step: [1541/1543], batch loss: 0.14320, batch accuracy: 91.59, data load time: 0.01454, step time: 0.07088
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.7791
+
+-------------------------------------------------------------
+validation loss: 0.27361, accuracy: 77.91
+epoch: [7], step: [98/1543], batch loss: 0.18225, batch accuracy: 83.83, data load time: 0.01461, step time: 0.07333
+epoch: [7], step: [198/1543], batch loss: 0.23471, batch accuracy: 79.59, data load time: 0.01268, step time: 0.07345
+epoch: [7], step: [298/1543], batch loss: 0.18962, batch accuracy: 86.96, data load time: 0.01231, step time: 0.07314
+epoch: [7], step: [398/1543], batch loss: 0.13590, batch accuracy: 88.94, data load time: 0.01526, step time: 0.06750
+epoch: [7], step: [498/1543], batch loss: 0.14074, batch accuracy: 90.10, data load time: 0.01451, step time: 0.06831
+epoch: [7], step: [598/1543], batch loss: 0.16074, batch accuracy: 87.56, data load time: 0.00719, step time: 0.07339
+epoch: [7], step: [698/1543], batch loss: 0.16850, batch accuracy: 93.75, data load time: 0.01195, step time: 0.07546
+epoch: [7], step: [798/1543], batch loss: 0.11986, batch accuracy: 94.37, data load time: 0.01218, step time: 0.06777
+epoch: [7], step: [898/1543], batch loss: 0.15771, batch accuracy: 89.62, data load time: 0.01215, step time: 0.06980
+epoch: [7], step: [998/1543], batch loss: 0.18073, batch accuracy: 89.70, data load time: 0.01338, step time: 0.07135
+epoch: [7], step: [1098/1543], batch loss: 0.14957, batch accuracy: 87.15, data load time: 0.01047, step time: 0.06980
+epoch: [7], step: [1198/1543], batch loss: 0.14268, batch accuracy: 90.89, data load time: 0.00884, step time: 0.07060
+epoch: [7], step: [1298/1543], batch loss: 0.13935, batch accuracy: 95.03, data load time: 0.01214, step time: 0.07131
+epoch: [7], step: [1398/1543], batch loss: 0.15686, batch accuracy: 90.17, data load time: 0.01187, step time: 0.07054
+epoch: [7], step: [1498/1543], batch loss: 0.17800, batch accuracy: 83.14, data load time: 0.01250, step time: 0.07259
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8463
+
+-------------------------------------------------------------
+validation loss: 0.16892, accuracy: 84.63
+epoch: [8], step: [55/1543], batch loss: 0.13722, batch accuracy: 86.55, data load time: 0.01697, step time: 0.06834
+epoch: [8], step: [155/1543], batch loss: 0.15820, batch accuracy: 85.38, data load time: 0.00284, step time: 0.06852
+epoch: [8], step: [255/1543], batch loss: 0.17416, batch accuracy: 87.13, data load time: 0.01169, step time: 0.07173
+epoch: [8], step: [355/1543], batch loss: 0.13836, batch accuracy: 96.29, data load time: 0.01416, step time: 0.07055
+epoch: [8], step: [455/1543], batch loss: 0.10963, batch accuracy: 90.76, data load time: 0.01186, step time: 0.06537
+epoch: [8], step: [555/1543], batch loss: 0.13617, batch accuracy: 92.42, data load time: 0.01187, step time: 0.06865
+epoch: [8], step: [655/1543], batch loss: 0.13968, batch accuracy: 91.08, data load time: 0.01539, step time: 0.07411
+epoch: [8], step: [755/1543], batch loss: 0.19440, batch accuracy: 84.56, data load time: 0.00651, step time: 0.07409
+epoch: [8], step: [855/1543], batch loss: 0.14754, batch accuracy: 89.05, data load time: 0.00991, step time: 0.07127
+epoch: [8], step: [955/1543], batch loss: 0.13376, batch accuracy: 90.65, data load time: 0.01722, step time: 0.06984
+epoch: [8], step: [1055/1543], batch loss: 0.13441, batch accuracy: 90.71, data load time: 0.00903, step time: 0.06975
+epoch: [8], step: [1155/1543], batch loss: 0.16506, batch accuracy: 91.23, data load time: 0.01490, step time: 0.07417
+epoch: [8], step: [1255/1543], batch loss: 0.14422, batch accuracy: 90.00, data load time: 0.01523, step time: 0.06771
+epoch: [8], step: [1355/1543], batch loss: 0.17249, batch accuracy: 90.93, data load time: 0.01370, step time: 0.07406
+epoch: [8], step: [1455/1543], batch loss: 0.17010, batch accuracy: 87.81, data load time: 0.01388, step time: 0.07333
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8624
+
+-------------------------------------------------------------
+validation loss: 0.14481, accuracy: 86.24
+epoch: [9], step: [12/1543], batch loss: 0.14252, batch accuracy: 85.94, data load time: 0.00877, step time: 0.07153
+epoch: [9], step: [112/1543], batch loss: 0.15558, batch accuracy: 86.60, data load time: 0.01006, step time: 0.07198
+epoch: [9], step: [212/1543], batch loss: 0.13041, batch accuracy: 94.39, data load time: 0.01339, step time: 0.07099
+epoch: [9], step: [312/1543], batch loss: 0.16659, batch accuracy: 85.17, data load time: 0.01220, step time: 0.07399
+epoch: [9], step: [412/1543], batch loss: 0.13649, batch accuracy: 84.54, data load time: 0.01086, step time: 0.06762
+epoch: [9], step: [512/1543], batch loss: 0.12128, batch accuracy: 86.38, data load time: 0.01222, step time: 0.06977
+epoch: [9], step: [612/1543], batch loss: 0.12347, batch accuracy: 96.62, data load time: 0.01270, step time: 0.07112
+epoch: [9], step: [712/1543], batch loss: 0.10206, batch accuracy: 91.29, data load time: 0.01665, step time: 0.06632
+epoch: [9], step: [812/1543], batch loss: 0.11929, batch accuracy: 94.62, data load time: 0.01111, step time: 0.06613
+epoch: [9], step: [912/1543], batch loss: 0.17102, batch accuracy: 82.03, data load time: 0.01658, step time: 0.06974
+epoch: [9], step: [1012/1543], batch loss: 0.13935, batch accuracy: 92.18, data load time: 0.01143, step time: 0.07333
+epoch: [9], step: [1112/1543], batch loss: 0.10941, batch accuracy: 93.19, data load time: 0.01136, step time: 0.06982
+epoch: [9], step: [1212/1543], batch loss: 0.13796, batch accuracy: 90.86, data load time: 0.01215, step time: 0.06980
+epoch: [9], step: [1312/1543], batch loss: 0.10252, batch accuracy: 93.63, data load time: 0.01098, step time: 0.06779
+epoch: [9], step: [1412/1543], batch loss: 0.18225, batch accuracy: 90.00, data load time: 0.01226, step time: 0.07196
+epoch: [9], step: [1512/1543], batch loss: 0.14140, batch accuracy: 89.41, data load time: 0.01352, step time: 0.07065
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8655
+
+-------------------------------------------------------------
+validation loss: 0.15341, accuracy: 86.55
+epoch: [10], step: [69/1543], batch loss: 0.15893, batch accuracy: 88.62, data load time: 0.01257, step time: 0.07070
+epoch: [10], step: [169/1543], batch loss: 0.17703, batch accuracy: 92.03, data load time: 0.00846, step time: 0.07407
+epoch: [10], step: [269/1543], batch loss: 0.14925, batch accuracy: 90.58, data load time: 0.01035, step time: 0.07262
+epoch: [10], step: [369/1543], batch loss: 0.14619, batch accuracy: 88.47, data load time: 0.01742, step time: 0.07068
+epoch: [10], step: [469/1543], batch loss: 0.13204, batch accuracy: 91.48, data load time: 0.01199, step time: 0.07332
+epoch: [10], step: [569/1543], batch loss: 0.12733, batch accuracy: 92.82, data load time: 0.01641, step time: 0.06843
+epoch: [10], step: [669/1543], batch loss: 0.12616, batch accuracy: 93.85, data load time: 0.01116, step time: 0.07205
+epoch: [10], step: [769/1543], batch loss: 0.14108, batch accuracy: 91.48, data load time: 0.01319, step time: 0.07268
+epoch: [10], step: [869/1543], batch loss: 0.17827, batch accuracy: 82.71, data load time: 0.01001, step time: 0.07472
+epoch: [10], step: [969/1543], batch loss: 0.11111, batch accuracy: 94.35, data load time: 0.01446, step time: 0.07126
+epoch: [10], step: [1069/1543], batch loss: 0.16995, batch accuracy: 88.25, data load time: 0.01266, step time: 0.07255
+epoch: [10], step: [1169/1543], batch loss: 0.17052, batch accuracy: 89.31, data load time: 0.01238, step time: 0.06845
+epoch: [10], step: [1269/1543], batch loss: 0.14596, batch accuracy: 86.56, data load time: 0.01306, step time: 0.06997
+epoch: [10], step: [1369/1543], batch loss: 0.13477, batch accuracy: 93.61, data load time: 0.01206, step time: 0.06980
+epoch: [10], step: [1469/1543], batch loss: 0.10291, batch accuracy: 96.22, data load time: 0.01224, step time: 0.07054
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8796
+
+-------------------------------------------------------------
+validation loss: 0.14027, accuracy: 87.96
+epoch: [11], step: [26/1543], batch loss: 0.16008, batch accuracy: 90.34, data load time: 0.01129, step time: 0.07138
+epoch: [11], step: [126/1543], batch loss: 0.13412, batch accuracy: 90.63, data load time: 0.01022, step time: 0.07380
+epoch: [11], step: [226/1543], batch loss: 0.13605, batch accuracy: 91.55, data load time: 0.01019, step time: 0.06850
+epoch: [11], step: [326/1543], batch loss: 0.10389, batch accuracy: 95.90, data load time: 0.01447, step time: 0.06918
+epoch: [11], step: [426/1543], batch loss: 0.16841, batch accuracy: 87.87, data load time: 0.01466, step time: 0.06804
+epoch: [11], step: [526/1543], batch loss: 0.12434, batch accuracy: 91.10, data load time: 0.01470, step time: 0.07063
+epoch: [11], step: [626/1543], batch loss: 0.13037, batch accuracy: 91.05, data load time: 0.01433, step time: 0.06694
+epoch: [11], step: [726/1543], batch loss: 0.12513, batch accuracy: 86.42, data load time: 0.01271, step time: 0.06635
+epoch: [11], step: [826/1543], batch loss: 0.15958, batch accuracy: 87.83, data load time: 0.00996, step time: 0.07293
+epoch: [11], step: [926/1543], batch loss: 0.16465, batch accuracy: 90.28, data load time: 0.01383, step time: 0.07439
+epoch: [11], step: [1026/1543], batch loss: 0.14209, batch accuracy: 93.33, data load time: 0.01126, step time: 0.07266
+epoch: [11], step: [1126/1543], batch loss: 0.11710, batch accuracy: 92.55, data load time: 0.01135, step time: 0.06908
+epoch: [11], step: [1226/1543], batch loss: 0.13976, batch accuracy: 89.80, data load time: 0.01104, step time: 0.06917
+epoch: [11], step: [1326/1543], batch loss: 0.13136, batch accuracy: 87.45, data load time: 0.01047, step time: 0.07020
+epoch: [11], step: [1426/1543], batch loss: 0.17622, batch accuracy: 86.84, data load time: 0.01137, step time: 0.07289
+epoch: [11], step: [1526/1543], batch loss: 0.14121, batch accuracy: 87.38, data load time: 0.00980, step time: 0.06906
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8307
+
+-------------------------------------------------------------
+validation loss: 0.19046, accuracy: 83.07
+epoch: [12], step: [83/1543], batch loss: 0.12460, batch accuracy: 91.01, data load time: 0.01244, step time: 0.07048
+epoch: [12], step: [183/1543], batch loss: 0.14852, batch accuracy: 91.73, data load time: 0.00596, step time: 0.06846
+epoch: [12], step: [283/1543], batch loss: 0.19160, batch accuracy: 89.33, data load time: 0.00982, step time: 0.07540
+epoch: [12], step: [383/1543], batch loss: 0.11834, batch accuracy: 89.78, data load time: 0.01634, step time: 0.06686
+epoch: [12], step: [483/1543], batch loss: 0.14746, batch accuracy: 90.80, data load time: 0.01550, step time: 0.07187
+epoch: [12], step: [583/1543], batch loss: 0.12890, batch accuracy: 83.79, data load time: 0.01155, step time: 0.06753
+epoch: [12], step: [683/1543], batch loss: 0.12574, batch accuracy: 86.77, data load time: 0.00799, step time: 0.06907
+epoch: [12], step: [783/1543], batch loss: 0.12170, batch accuracy: 90.32, data load time: 0.01515, step time: 0.06682
+epoch: [12], step: [883/1543], batch loss: 0.11952, batch accuracy: 91.63, data load time: 0.01137, step time: 0.06915
+epoch: [12], step: [983/1543], batch loss: 0.14617, batch accuracy: 93.43, data load time: 0.00802, step time: 0.07336
+epoch: [12], step: [1083/1543], batch loss: 0.12483, batch accuracy: 91.60, data load time: 0.01479, step time: 0.06911
+epoch: [12], step: [1183/1543], batch loss: 0.12207, batch accuracy: 92.15, data load time: 0.01782, step time: 0.07123
+epoch: [12], step: [1283/1543], batch loss: 0.12029, batch accuracy: 92.29, data load time: 0.01335, step time: 0.06983
+epoch: [12], step: [1383/1543], batch loss: 0.15620, batch accuracy: 92.78, data load time: 0.00861, step time: 0.07057
+epoch: [12], step: [1483/1543], batch loss: 0.12178, batch accuracy: 91.88, data load time: 0.01519, step time: 0.06704
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8780
+
+-------------------------------------------------------------
+validation loss: 0.14050, accuracy: 87.80
+epoch: [13], step: [40/1543], batch loss: 0.10752, batch accuracy: 95.13, data load time: 0.01301, step time: 0.07198
+epoch: [13], step: [140/1543], batch loss: 0.14775, batch accuracy: 90.92, data load time: 0.01239, step time: 0.06982
+epoch: [13], step: [240/1543], batch loss: 0.15186, batch accuracy: 90.42, data load time: 0.01279, step time: 0.06979
+epoch: [13], step: [340/1543], batch loss: 0.08840, batch accuracy: 98.33, data load time: 0.01465, step time: 0.06906
+epoch: [13], step: [440/1543], batch loss: 0.10395, batch accuracy: 95.40, data load time: 0.01143, step time: 0.07310
+epoch: [13], step: [540/1543], batch loss: 0.08165, batch accuracy: 96.44, data load time: 0.01335, step time: 0.06555
+epoch: [13], step: [640/1543], batch loss: 0.12530, batch accuracy: 90.63, data load time: 0.01498, step time: 0.07258
+epoch: [13], step: [740/1543], batch loss: 0.14798, batch accuracy: 89.51, data load time: 0.01050, step time: 0.07326
+epoch: [13], step: [840/1543], batch loss: 0.15256, batch accuracy: 83.57, data load time: 0.01165, step time: 0.07186
+epoch: [13], step: [940/1543], batch loss: 0.14179, batch accuracy: 90.27, data load time: 0.01393, step time: 0.07054
+epoch: [13], step: [1040/1543], batch loss: 0.13416, batch accuracy: 92.33, data load time: 0.00990, step time: 0.07206
+epoch: [13], step: [1140/1543], batch loss: 0.13535, batch accuracy: 91.45, data load time: 0.01280, step time: 0.06752
+epoch: [13], step: [1240/1543], batch loss: 0.12354, batch accuracy: 92.68, data load time: 0.01240, step time: 0.06675
+epoch: [13], step: [1340/1543], batch loss: 0.14503, batch accuracy: 91.57, data load time: 0.01133, step time: 0.06791
+epoch: [13], step: [1440/1543], batch loss: 0.12694, batch accuracy: 93.14, data load time: 0.01239, step time: 0.07050
+epoch: [13], step: [1540/1543], batch loss: 0.15823, batch accuracy: 86.46, data load time: 0.01315, step time: 0.07118
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8593
+
+-------------------------------------------------------------
+validation loss: 0.15033, accuracy: 85.93
+epoch: [14], step: [97/1543], batch loss: 0.13676, batch accuracy: 87.55, data load time: 0.01328, step time: 0.06640
+epoch: [14], step: [197/1543], batch loss: 0.12304, batch accuracy: 90.50, data load time: 0.01452, step time: 0.06837
+epoch: [14], step: [297/1543], batch loss: 0.11143, batch accuracy: 87.63, data load time: 0.01113, step time: 0.06690
+epoch: [14], step: [397/1543], batch loss: 0.11640, batch accuracy: 91.34, data load time: 0.01748, step time: 0.06884
+epoch: [14], step: [497/1543], batch loss: 0.10031, batch accuracy: 94.84, data load time: 0.01005, step time: 0.06625
+epoch: [14], step: [597/1543], batch loss: 0.15407, batch accuracy: 87.77, data load time: 0.01036, step time: 0.06981
+epoch: [14], step: [697/1543], batch loss: 0.11877, batch accuracy: 94.39, data load time: 0.01317, step time: 0.07052
+epoch: [14], step: [797/1543], batch loss: 0.11949, batch accuracy: 95.67, data load time: 0.01522, step time: 0.07056
+epoch: [14], step: [897/1543], batch loss: 0.13298, batch accuracy: 92.46, data load time: 0.01123, step time: 0.07051
+epoch: [14], step: [997/1543], batch loss: 0.13731, batch accuracy: 90.71, data load time: 0.00932, step time: 0.07161
+epoch: [14], step: [1097/1543], batch loss: 0.14555, batch accuracy: 93.10, data load time: 0.00911, step time: 0.07189
+epoch: [14], step: [1197/1543], batch loss: 0.17072, batch accuracy: 86.16, data load time: 0.01412, step time: 0.07135
+epoch: [14], step: [1297/1543], batch loss: 0.14963, batch accuracy: 94.84, data load time: 0.01216, step time: 0.06837
+epoch: [14], step: [1397/1543], batch loss: 0.11575, batch accuracy: 90.87, data load time: 0.01247, step time: 0.06844
+epoch: [14], step: [1497/1543], batch loss: 0.14940, batch accuracy: 91.96, data load time: 0.01315, step time: 0.07080
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.5604
+
+-------------------------------------------------------------
+validation loss: 0.59366, accuracy: 56.04
+epoch: [15], step: [54/1543], batch loss: 0.12495, batch accuracy: 88.74, data load time: 0.01388, step time: 0.06843
+epoch: [15], step: [154/1543], batch loss: 0.16001, batch accuracy: 81.14, data load time: 0.01242, step time: 0.07139
+epoch: [15], step: [254/1543], batch loss: 0.12131, batch accuracy: 88.25, data load time: 0.01203, step time: 0.06659
+epoch: [15], step: [354/1543], batch loss: 0.15427, batch accuracy: 95.87, data load time: 0.01394, step time: 0.07260
+epoch: [15], step: [454/1543], batch loss: 0.12135, batch accuracy: 92.41, data load time: 0.01522, step time: 0.07000
+epoch: [15], step: [554/1543], batch loss: 0.10272, batch accuracy: 90.03, data load time: 0.01420, step time: 0.06785
+epoch: [15], step: [654/1543], batch loss: 0.12858, batch accuracy: 89.49, data load time: 0.01447, step time: 0.06987
+epoch: [15], step: [754/1543], batch loss: 0.10454, batch accuracy: 96.46, data load time: 0.00990, step time: 0.06985
+epoch: [15], step: [854/1543], batch loss: 0.12332, batch accuracy: 94.58, data load time: 0.01286, step time: 0.07010
+epoch: [15], step: [954/1543], batch loss: 0.16224, batch accuracy: 80.55, data load time: 0.01046, step time: 0.06699
+epoch: [15], step: [1054/1543], batch loss: 0.14233, batch accuracy: 89.71, data load time: 0.01109, step time: 0.06917
+epoch: [15], step: [1154/1543], batch loss: 0.10781, batch accuracy: 89.30, data load time: 0.01337, step time: 0.06713
+epoch: [15], step: [1254/1543], batch loss: 0.14403, batch accuracy: 89.07, data load time: 0.00997, step time: 0.07068
+epoch: [15], step: [1354/1543], batch loss: 0.13910, batch accuracy: 92.71, data load time: 0.01694, step time: 0.07055
+epoch: [15], step: [1454/1543], batch loss: 0.12510, batch accuracy: 94.39, data load time: 0.01483, step time: 0.07002
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.7814
+
+-------------------------------------------------------------
+validation loss: 0.29347, accuracy: 78.14
+epoch: [16], step: [11/1543], batch loss: 0.11955, batch accuracy: 94.75, data load time: 0.01206, step time: 0.07268
+epoch: [16], step: [111/1543], batch loss: 0.10891, batch accuracy: 97.32, data load time: 0.00819, step time: 0.06620
+epoch: [16], step: [211/1543], batch loss: 0.13465, batch accuracy: 94.56, data load time: 0.01044, step time: 0.07057
+epoch: [16], step: [311/1543], batch loss: 0.16352, batch accuracy: 92.55, data load time: 0.02697, step time: 0.07367
+epoch: [16], step: [411/1543], batch loss: 0.14455, batch accuracy: 91.25, data load time: 0.01351, step time: 0.07101
+epoch: [16], step: [511/1543], batch loss: 0.16191, batch accuracy: 83.95, data load time: 0.01319, step time: 0.07271
+epoch: [16], step: [611/1543], batch loss: 0.13838, batch accuracy: 87.93, data load time: 0.01089, step time: 0.07056
+epoch: [16], step: [711/1543], batch loss: 0.13676, batch accuracy: 90.86, data load time: 0.01096, step time: 0.06696
+epoch: [16], step: [811/1543], batch loss: 0.10904, batch accuracy: 92.01, data load time: 0.01261, step time: 0.06911
+epoch: [16], step: [911/1543], batch loss: 0.16644, batch accuracy: 87.06, data load time: 0.03115, step time: 0.07755
+epoch: [16], step: [1011/1543], batch loss: 0.15084, batch accuracy: 90.17, data load time: 0.01468, step time: 0.06985
+epoch: [16], step: [1111/1543], batch loss: 0.09013, batch accuracy: 97.18, data load time: 0.01542, step time: 0.06828
+epoch: [16], step: [1211/1543], batch loss: 0.12444, batch accuracy: 88.23, data load time: 0.00999, step time: 0.06893
+epoch: [16], step: [1311/1543], batch loss: 0.11099, batch accuracy: 93.89, data load time: 0.01437, step time: 0.06690
+epoch: [16], step: [1411/1543], batch loss: 0.11533, batch accuracy: 90.84, data load time: 0.01352, step time: 0.06755
+epoch: [16], step: [1511/1543], batch loss: 0.13295, batch accuracy: 93.72, data load time: 0.01288, step time: 0.07085
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8140
+
+-------------------------------------------------------------
+validation loss: 0.22526, accuracy: 81.40
+epoch: [17], step: [68/1543], batch loss: 0.10974, batch accuracy: 93.33, data load time: 0.01616, step time: 0.06882
+epoch: [17], step: [168/1543], batch loss: 0.07944, batch accuracy: 97.61, data load time: 0.00661, step time: 0.06698
+epoch: [17], step: [268/1543], batch loss: 0.11781, batch accuracy: 95.19, data load time: 0.01599, step time: 0.06951
+epoch: [17], step: [368/1543], batch loss: 0.13609, batch accuracy: 90.74, data load time: 0.01255, step time: 0.06992
+epoch: [17], step: [468/1543], batch loss: 0.13486, batch accuracy: 91.76, data load time: 0.01489, step time: 0.07100
+epoch: [17], step: [568/1543], batch loss: 0.10836, batch accuracy: 93.25, data load time: 0.01589, step time: 0.07088
+epoch: [17], step: [668/1543], batch loss: 0.13623, batch accuracy: 92.74, data load time: 0.01153, step time: 0.07325
+epoch: [17], step: [768/1543], batch loss: 0.11651, batch accuracy: 98.25, data load time: 0.01545, step time: 0.06908
+epoch: [17], step: [868/1543], batch loss: 0.24622, batch accuracy: 89.73, data load time: 0.01356, step time: 0.07756
+epoch: [17], step: [968/1543], batch loss: 0.14364, batch accuracy: 88.50, data load time: 0.01013, step time: 0.07103
+epoch: [17], step: [1068/1543], batch loss: 0.13448, batch accuracy: 94.11, data load time: 0.01133, step time: 0.07356
+epoch: [17], step: [1168/1543], batch loss: 0.17168, batch accuracy: 90.05, data load time: 0.01020, step time: 0.07501
+epoch: [17], step: [1268/1543], batch loss: 0.11289, batch accuracy: 92.79, data load time: 0.00980, step time: 0.06758
+epoch: [17], step: [1368/1543], batch loss: 0.11013, batch accuracy: 96.76, data load time: 0.01269, step time: 0.06964
+epoch: [17], step: [1468/1543], batch loss: 0.11400, batch accuracy: 97.09, data load time: 0.01068, step time: 0.07291
+Epoch 00018: reducing learning rate of group 0 to 1.0000e-02.
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8771
+
+-------------------------------------------------------------
+validation loss: 0.15222, accuracy: 87.71
+epoch: [18], step: [25/1543], batch loss: 0.11895, batch accuracy: 90.52, data load time: 0.00990, step time: 0.06914
+epoch: [18], step: [125/1543], batch loss: 0.12822, batch accuracy: 91.78, data load time: 0.01103, step time: 0.07260
+epoch: [18], step: [225/1543], batch loss: 0.13240, batch accuracy: 94.23, data load time: 0.01013, step time: 0.06973
+epoch: [18], step: [325/1543], batch loss: 0.14996, batch accuracy: 90.09, data load time: 0.01445, step time: 0.06970
+epoch: [18], step: [425/1543], batch loss: 0.16861, batch accuracy: 89.33, data load time: 0.01095, step time: 0.07102
+epoch: [18], step: [525/1543], batch loss: 0.12599, batch accuracy: 88.41, data load time: 0.00935, step time: 0.07324
+epoch: [18], step: [625/1543], batch loss: 0.11490, batch accuracy: 87.79, data load time: 0.00967, step time: 0.06679
+epoch: [18], step: [725/1543], batch loss: 0.14707, batch accuracy: 86.53, data load time: 0.00904, step time: 0.07126
+epoch: [18], step: [825/1543], batch loss: 0.10662, batch accuracy: 94.91, data load time: 0.01562, step time: 0.06961
+epoch: [18], step: [925/1543], batch loss: 0.11222, batch accuracy: 92.17, data load time: 0.01508, step time: 0.07236
+epoch: [18], step: [1025/1543], batch loss: 0.10570, batch accuracy: 91.24, data load time: 0.01298, step time: 0.06803
+epoch: [18], step: [1125/1543], batch loss: 0.08345, batch accuracy: 98.71, data load time: 0.01291, step time: 0.06593
+epoch: [18], step: [1225/1543], batch loss: 0.11328, batch accuracy: 90.34, data load time: 0.01332, step time: 0.06959
+epoch: [18], step: [1325/1543], batch loss: 0.09753, batch accuracy: 92.76, data load time: 0.01298, step time: 0.06924
+epoch: [18], step: [1425/1543], batch loss: 0.10786, batch accuracy: 93.82, data load time: 0.00990, step time: 0.06964
+epoch: [18], step: [1525/1543], batch loss: 0.14888, batch accuracy: 88.83, data load time: 0.01352, step time: 0.07168
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8925
+
+-------------------------------------------------------------
+validation loss: 0.13234, accuracy: 89.25
+epoch: [19], step: [82/1543], batch loss: 0.13102, batch accuracy: 92.94, data load time: 0.01202, step time: 0.07193
+epoch: [19], step: [182/1543], batch loss: 0.13551, batch accuracy: 95.46, data load time: 0.00996, step time: 0.07259
+epoch: [19], step: [282/1543], batch loss: 0.09947, batch accuracy: 95.57, data load time: 0.01301, step time: 0.06902
+epoch: [19], step: [382/1543], batch loss: 0.13974, batch accuracy: 89.76, data load time: 0.01248, step time: 0.07124
+epoch: [19], step: [482/1543], batch loss: 0.16106, batch accuracy: 93.43, data load time: 0.01255, step time: 0.07046
+epoch: [19], step: [582/1543], batch loss: 0.12989, batch accuracy: 91.18, data load time: 0.00598, step time: 0.06974
+epoch: [19], step: [682/1543], batch loss: 0.10308, batch accuracy: 95.64, data load time: 0.01468, step time: 0.06899
+epoch: [19], step: [782/1543], batch loss: 0.13284, batch accuracy: 90.38, data load time: 0.01255, step time: 0.07198
+epoch: [19], step: [882/1543], batch loss: 0.12856, batch accuracy: 90.75, data load time: 0.01252, step time: 0.06950
+epoch: [19], step: [982/1543], batch loss: 0.09871, batch accuracy: 93.99, data load time: 0.01123, step time: 0.06903
+epoch: [19], step: [1082/1543], batch loss: 0.14057, batch accuracy: 94.44, data load time: 0.01358, step time: 0.07194
+epoch: [19], step: [1182/1543], batch loss: 0.12125, batch accuracy: 97.32, data load time: 0.00848, step time: 0.07135
+epoch: [19], step: [1282/1543], batch loss: 0.11262, batch accuracy: 94.07, data load time: 0.01229, step time: 0.07034
+epoch: [19], step: [1382/1543], batch loss: 0.10234, batch accuracy: 94.54, data load time: 0.01352, step time: 0.07048
+epoch: [19], step: [1482/1543], batch loss: 0.13815, batch accuracy: 94.56, data load time: 0.01592, step time: 0.07202
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8871
+
+-------------------------------------------------------------
+validation loss: 0.14545, accuracy: 88.71
+epoch: [20], step: [39/1543], batch loss: 0.09491, batch accuracy: 91.66, data load time: 0.01501, step time: 0.06764
+epoch: [20], step: [139/1543], batch loss: 0.10967, batch accuracy: 93.18, data load time: 0.01384, step time: 0.07198
+epoch: [20], step: [239/1543], batch loss: 0.13446, batch accuracy: 94.43, data load time: 0.01000, step time: 0.07345
+epoch: [20], step: [339/1543], batch loss: 0.10585, batch accuracy: 93.13, data load time: 0.01059, step time: 0.06906
+epoch: [20], step: [439/1543], batch loss: 0.12118, batch accuracy: 91.51, data load time: 0.01383, step time: 0.06910
+epoch: [20], step: [539/1543], batch loss: 0.11907, batch accuracy: 90.13, data load time: 0.01031, step time: 0.07017
+epoch: [20], step: [639/1543], batch loss: 0.09740, batch accuracy: 96.94, data load time: 0.01171, step time: 0.07124
+epoch: [20], step: [739/1543], batch loss: 0.09137, batch accuracy: 93.44, data load time: 0.01535, step time: 0.06901
+epoch: [20], step: [839/1543], batch loss: 0.09498, batch accuracy: 95.32, data load time: 0.01344, step time: 0.06968
+epoch: [20], step: [939/1543], batch loss: 0.14841, batch accuracy: 94.44, data load time: 0.01433, step time: 0.07421
+epoch: [20], step: [1039/1543], batch loss: 0.10988, batch accuracy: 94.99, data load time: 0.01334, step time: 0.06827
+epoch: [20], step: [1139/1543], batch loss: 0.11212, batch accuracy: 94.53, data load time: 0.01471, step time: 0.06931
+epoch: [20], step: [1239/1543], batch loss: 0.15377, batch accuracy: 90.04, data load time: 0.01544, step time: 0.07107
+epoch: [20], step: [1339/1543], batch loss: 0.16496, batch accuracy: 85.39, data load time: 0.01369, step time: 0.07341
+epoch: [20], step: [1439/1543], batch loss: 0.14951, batch accuracy: 92.23, data load time: 0.01352, step time: 0.06977
+epoch: [20], step: [1539/1543], batch loss: 0.12402, batch accuracy: 94.64, data load time: 0.01490, step time: 0.06751
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8922
+
+-------------------------------------------------------------
+validation loss: 0.13337, accuracy: 89.22
+epoch: [21], step: [96/1543], batch loss: 0.12290, batch accuracy: 92.13, data load time: 0.01219, step time: 0.06923
+epoch: [21], step: [196/1543], batch loss: 0.10932, batch accuracy: 94.63, data load time: 0.01298, step time: 0.06852
+epoch: [21], step: [296/1543], batch loss: 0.09208, batch accuracy: 94.35, data load time: 0.01230, step time: 0.06975
+epoch: [21], step: [396/1543], batch loss: 0.13001, batch accuracy: 93.69, data load time: 0.01505, step time: 0.06693
+epoch: [21], step: [496/1543], batch loss: 0.10617, batch accuracy: 95.86, data load time: 0.01249, step time: 0.07127
+epoch: [21], step: [596/1543], batch loss: 0.11692, batch accuracy: 97.00, data load time: 0.01136, step time: 0.07467
+epoch: [21], step: [696/1543], batch loss: 0.12194, batch accuracy: 93.56, data load time: 0.01315, step time: 0.06844
+epoch: [21], step: [796/1543], batch loss: 0.11246, batch accuracy: 93.61, data load time: 0.01046, step time: 0.07199
+epoch: [21], step: [896/1543], batch loss: 0.07857, batch accuracy: 95.79, data load time: 0.01444, step time: 0.06750
+epoch: [21], step: [996/1543], batch loss: 0.18559, batch accuracy: 87.18, data load time: 0.01298, step time: 0.07074
+epoch: [21], step: [1096/1543], batch loss: 0.12144, batch accuracy: 94.25, data load time: 0.01380, step time: 0.06975
+epoch: [21], step: [1196/1543], batch loss: 0.09761, batch accuracy: 96.25, data load time: 0.01244, step time: 0.07128
+epoch: [21], step: [1296/1543], batch loss: 0.14827, batch accuracy: 89.33, data load time: 0.00937, step time: 0.07040
+epoch: [21], step: [1396/1543], batch loss: 0.10332, batch accuracy: 96.74, data load time: 0.01274, step time: 0.06620
+epoch: [21], step: [1496/1543], batch loss: 0.11907, batch accuracy: 97.39, data load time: 0.01100, step time: 0.07349
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8884
+
+-------------------------------------------------------------
+validation loss: 0.13504, accuracy: 88.84
+epoch: [22], step: [53/1543], batch loss: 0.09119, batch accuracy: 94.78, data load time: 0.01229, step time: 0.07184
+epoch: [22], step: [153/1543], batch loss: 0.13140, batch accuracy: 92.37, data load time: 0.00709, step time: 0.07126
+epoch: [22], step: [253/1543], batch loss: 0.09937, batch accuracy: 85.47, data load time: 0.00838, step time: 0.06407
+epoch: [22], step: [353/1543], batch loss: 0.14126, batch accuracy: 89.43, data load time: 0.01537, step time: 0.07063
+epoch: [22], step: [453/1543], batch loss: 0.09662, batch accuracy: 93.66, data load time: 0.00591, step time: 0.06927
+epoch: [22], step: [553/1543], batch loss: 0.14384, batch accuracy: 84.78, data load time: 0.01162, step time: 0.06903
+epoch: [22], step: [653/1543], batch loss: 0.09763, batch accuracy: 97.42, data load time: 0.01448, step time: 0.07191
+epoch: [22], step: [753/1543], batch loss: 0.14296, batch accuracy: 93.80, data load time: 0.00931, step time: 0.06985
+epoch: [22], step: [853/1543], batch loss: 0.10825, batch accuracy: 90.90, data load time: 0.01023, step time: 0.06844
+epoch: [22], step: [953/1543], batch loss: 0.10809, batch accuracy: 95.42, data load time: 0.01418, step time: 0.06834
+epoch: [22], step: [1053/1543], batch loss: 0.13752, batch accuracy: 92.14, data load time: 0.01250, step time: 0.07404
+epoch: [22], step: [1153/1543], batch loss: 0.12025, batch accuracy: 96.71, data load time: 0.01458, step time: 0.07203
+epoch: [22], step: [1253/1543], batch loss: 0.09822, batch accuracy: 99.18, data load time: 0.01411, step time: 0.07110
+epoch: [22], step: [1353/1543], batch loss: 0.09021, batch accuracy: 93.78, data load time: 0.01041, step time: 0.06751
+epoch: [22], step: [1453/1543], batch loss: 0.10675, batch accuracy: 94.99, data load time: 0.01229, step time: 0.07189
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8891
+
+-------------------------------------------------------------
+validation loss: 0.13588, accuracy: 88.91
+epoch: [23], step: [10/1543], batch loss: 0.11119, batch accuracy: 94.76, data load time: 0.01148, step time: 0.07140
+epoch: [23], step: [110/1543], batch loss: 0.10919, batch accuracy: 91.67, data load time: 0.02218, step time: 0.07138
+epoch: [23], step: [210/1543], batch loss: 0.10436, batch accuracy: 95.45, data load time: 0.01029, step time: 0.07214
+epoch: [23], step: [310/1543], batch loss: 0.12354, batch accuracy: 94.30, data load time: 0.01307, step time: 0.06993
+epoch: [23], step: [410/1543], batch loss: 0.10060, batch accuracy: 98.35, data load time: 0.01269, step time: 0.06971
+epoch: [23], step: [510/1543], batch loss: 0.11370, batch accuracy: 91.67, data load time: 0.01376, step time: 0.07383
+epoch: [23], step: [610/1543], batch loss: 0.09601, batch accuracy: 92.86, data load time: 0.01236, step time: 0.06553
+epoch: [23], step: [710/1543], batch loss: 0.13699, batch accuracy: 92.93, data load time: 0.01249, step time: 0.07474
+epoch: [23], step: [810/1543], batch loss: 0.13013, batch accuracy: 94.56, data load time: 0.01221, step time: 0.06711
+epoch: [23], step: [910/1543], batch loss: 0.10650, batch accuracy: 92.82, data load time: 0.01158, step time: 0.06699
+epoch: [23], step: [1010/1543], batch loss: 0.10587, batch accuracy: 95.08, data load time: 0.00985, step time: 0.06867
+epoch: [23], step: [1110/1543], batch loss: 0.10593, batch accuracy: 92.78, data load time: 0.01287, step time: 0.07253
+epoch: [23], step: [1210/1543], batch loss: 0.12948, batch accuracy: 95.04, data load time: 0.01163, step time: 0.07404
+epoch: [23], step: [1310/1543], batch loss: 0.07023, batch accuracy: 97.11, data load time: 0.01276, step time: 0.06775
+epoch: [23], step: [1410/1543], batch loss: 0.14126, batch accuracy: 93.93, data load time: 0.00913, step time: 0.07598
+epoch: [23], step: [1510/1543], batch loss: 0.10845, batch accuracy: 97.84, data load time: 0.01262, step time: 0.07203
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8881
+
+-------------------------------------------------------------
+validation loss: 0.13717, accuracy: 88.81
+epoch: [24], step: [67/1543], batch loss: 0.14506, batch accuracy: 91.11, data load time: 0.01264, step time: 0.07278
+epoch: [24], step: [167/1543], batch loss: 0.12432, batch accuracy: 90.28, data load time: 0.01435, step time: 0.06853
+epoch: [24], step: [267/1543], batch loss: 0.10810, batch accuracy: 94.67, data load time: 0.00861, step time: 0.07312
+epoch: [24], step: [367/1543], batch loss: 0.09557, batch accuracy: 94.62, data load time: 0.01123, step time: 0.06906
+epoch: [24], step: [467/1543], batch loss: 0.08804, batch accuracy: 95.90, data load time: 0.01308, step time: 0.06915
+epoch: [24], step: [567/1543], batch loss: 0.05967, batch accuracy: 98.02, data load time: 0.01170, step time: 0.06626
+epoch: [24], step: [667/1543], batch loss: 0.11267, batch accuracy: 94.99, data load time: 0.01233, step time: 0.07268
+epoch: [24], step: [767/1543], batch loss: 0.13814, batch accuracy: 91.45, data load time: 0.01308, step time: 0.07155
+epoch: [24], step: [867/1543], batch loss: 0.09521, batch accuracy: 95.63, data load time: 0.01477, step time: 0.06979
+epoch: [24], step: [967/1543], batch loss: 0.09064, batch accuracy: 97.04, data load time: 0.01246, step time: 0.07132
+epoch: [24], step: [1067/1543], batch loss: 0.13990, batch accuracy: 94.76, data load time: 0.01049, step time: 0.07074
+epoch: [24], step: [1167/1543], batch loss: 0.10830, batch accuracy: 94.22, data load time: 0.01270, step time: 0.06916
+epoch: [24], step: [1267/1543], batch loss: 0.08819, batch accuracy: 93.90, data load time: 0.01064, step time: 0.06775
+epoch: [24], step: [1367/1543], batch loss: 0.10489, batch accuracy: 95.60, data load time: 0.00996, step time: 0.06922
+epoch: [24], step: [1467/1543], batch loss: 0.10713, batch accuracy: 95.70, data load time: 0.01014, step time: 0.07123
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8884
+
+-------------------------------------------------------------
+validation loss: 0.13523, accuracy: 88.84
+epoch: [25], step: [24/1543], batch loss: 0.12315, batch accuracy: 88.74, data load time: 0.01410, step time: 0.06976
+epoch: [25], step: [124/1543], batch loss: 0.12823, batch accuracy: 90.44, data load time: 0.01314, step time: 0.07286
+epoch: [25], step: [224/1543], batch loss: 0.09642, batch accuracy: 91.71, data load time: 0.01110, step time: 0.06694
+epoch: [25], step: [324/1543], batch loss: 0.12516, batch accuracy: 92.03, data load time: 0.01023, step time: 0.07328
+epoch: [25], step: [424/1543], batch loss: 0.12256, batch accuracy: 95.34, data load time: 0.01521, step time: 0.07129
+epoch: [25], step: [524/1543], batch loss: 0.17117, batch accuracy: 96.04, data load time: 0.01547, step time: 0.07620
+epoch: [25], step: [624/1543], batch loss: 0.12549, batch accuracy: 93.75, data load time: 0.01121, step time: 0.07109
+epoch: [25], step: [724/1543], batch loss: 0.09269, batch accuracy: 93.61, data load time: 0.01357, step time: 0.06565
+epoch: [25], step: [824/1543], batch loss: 0.10957, batch accuracy: 95.20, data load time: 0.01283, step time: 0.07109
+epoch: [25], step: [924/1543], batch loss: 0.09765, batch accuracy: 94.16, data load time: 0.01554, step time: 0.07122
+epoch: [25], step: [1024/1543], batch loss: 0.10752, batch accuracy: 95.67, data load time: 0.01173, step time: 0.07071
+epoch: [25], step: [1124/1543], batch loss: 0.10962, batch accuracy: 94.20, data load time: 0.01302, step time: 0.07336
+epoch: [25], step: [1224/1543], batch loss: 0.11961, batch accuracy: 96.27, data load time: 0.00730, step time: 0.06839
+epoch: [25], step: [1324/1543], batch loss: 0.11660, batch accuracy: 97.24, data load time: 0.01539, step time: 0.06902
+epoch: [25], step: [1424/1543], batch loss: 0.13712, batch accuracy: 93.66, data load time: 0.01187, step time: 0.07488
+epoch: [25], step: [1524/1543], batch loss: 0.13244, batch accuracy: 94.02, data load time: 0.00843, step time: 0.07266
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8871
+
+-------------------------------------------------------------
+validation loss: 0.13665, accuracy: 88.71
+epoch: [26], step: [81/1543], batch loss: 0.11395, batch accuracy: 96.75, data load time: 0.00818, step time: 0.07278
+epoch: [26], step: [181/1543], batch loss: 0.09157, batch accuracy: 93.02, data load time: 0.01165, step time: 0.06854
+epoch: [26], step: [281/1543], batch loss: 0.14422, batch accuracy: 95.80, data load time: 0.01267, step time: 0.07562
+epoch: [26], step: [381/1543], batch loss: 0.10873, batch accuracy: 97.15, data load time: 0.01172, step time: 0.06922
+epoch: [26], step: [481/1543], batch loss: 0.08521, batch accuracy: 96.90, data load time: 0.01230, step time: 0.06807
+epoch: [26], step: [581/1543], batch loss: 0.07327, batch accuracy: 98.77, data load time: 0.01093, step time: 0.06773
+epoch: [26], step: [681/1543], batch loss: 0.14133, batch accuracy: 93.42, data load time: 0.01517, step time: 0.07202
+epoch: [26], step: [781/1543], batch loss: 0.07577, batch accuracy: 98.69, data load time: 0.01217, step time: 0.06774
+epoch: [26], step: [881/1543], batch loss: 0.08739, batch accuracy: 96.84, data load time: 0.02117, step time: 0.06625
+epoch: [26], step: [981/1543], batch loss: 0.11306, batch accuracy: 94.68, data load time: 0.01861, step time: 0.07212
+epoch: [26], step: [1081/1543], batch loss: 0.13094, batch accuracy: 96.14, data load time: 0.00852, step time: 0.07428
+epoch: [26], step: [1181/1543], batch loss: 0.11414, batch accuracy: 92.31, data load time: 0.02943, step time: 0.07474
+epoch: [26], step: [1281/1543], batch loss: 0.11467, batch accuracy: 95.10, data load time: 0.00927, step time: 0.07494
+epoch: [26], step: [1381/1543], batch loss: 0.11898, batch accuracy: 93.32, data load time: 0.01265, step time: 0.07218
+epoch: [26], step: [1481/1543], batch loss: 0.10430, batch accuracy: 93.97, data load time: 0.03270, step time: 0.06926
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8852
+
+-------------------------------------------------------------
+validation loss: 0.13832, accuracy: 88.52
+epoch: [27], step: [38/1543], batch loss: 0.08356, batch accuracy: 93.51, data load time: 0.01323, step time: 0.06918
+epoch: [27], step: [138/1543], batch loss: 0.10250, batch accuracy: 96.57, data load time: 0.00804, step time: 0.06711
+epoch: [27], step: [238/1543], batch loss: 0.09832, batch accuracy: 97.92, data load time: 0.04195, step time: 0.06997
+epoch: [27], step: [338/1543], batch loss: 0.12534, batch accuracy: 92.34, data load time: 0.02557, step time: 0.07088
+epoch: [27], step: [438/1543], batch loss: 0.10019, batch accuracy: 96.05, data load time: 0.02894, step time: 0.07055
+epoch: [27], step: [538/1543], batch loss: 0.08313, batch accuracy: 97.80, data load time: 0.01423, step time: 0.06842
+epoch: [27], step: [638/1543], batch loss: 0.08204, batch accuracy: 97.14, data load time: 0.01495, step time: 0.06693
+epoch: [27], step: [738/1543], batch loss: 0.09682, batch accuracy: 94.36, data load time: 0.03554, step time: 0.06987
+epoch: [27], step: [838/1543], batch loss: 0.10795, batch accuracy: 95.33, data load time: 0.02363, step time: 0.07054
+epoch: [27], step: [938/1543], batch loss: 0.11904, batch accuracy: 88.89, data load time: 0.00847, step time: 0.06752
+epoch: [27], step: [1038/1543], batch loss: 0.11170, batch accuracy: 95.08, data load time: 0.02725, step time: 0.07271
+epoch: [27], step: [1138/1543], batch loss: 0.10090, batch accuracy: 96.58, data load time: 0.02827, step time: 0.07556
+epoch: [27], step: [1238/1543], batch loss: 0.09454, batch accuracy: 94.08, data load time: 0.01397, step time: 0.06841
+epoch: [27], step: [1338/1543], batch loss: 0.11755, batch accuracy: 94.69, data load time: 0.02129, step time: 0.07345
+epoch: [27], step: [1438/1543], batch loss: 0.13048, batch accuracy: 93.25, data load time: 0.01458, step time: 0.07117
+epoch: [27], step: [1538/1543], batch loss: 0.09606, batch accuracy: 93.11, data load time: 0.04911, step time: 0.07261
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8860
+
+-------------------------------------------------------------
+validation loss: 0.13765, accuracy: 88.60
+epoch: [28], step: [95/1543], batch loss: 0.10863, batch accuracy: 95.00, data load time: 0.04506, step time: 0.06927
+epoch: [28], step: [195/1543], batch loss: 0.09832, batch accuracy: 94.92, data load time: 0.02750, step time: 0.07050
+epoch: [28], step: [295/1543], batch loss: 0.08485, batch accuracy: 97.22, data load time: 0.01259, step time: 0.06905
+epoch: [28], step: [395/1543], batch loss: 0.11566, batch accuracy: 97.56, data load time: 0.04392, step time: 0.07125
+epoch: [28], step: [495/1543], batch loss: 0.13040, batch accuracy: 93.98, data load time: 0.03360, step time: 0.07271
+epoch: [28], step: [595/1543], batch loss: 0.10658, batch accuracy: 95.36, data load time: 0.00956, step time: 0.06925
+epoch: [28], step: [695/1543], batch loss: 0.08672, batch accuracy: 97.07, data load time: 0.03188, step time: 0.06989
+epoch: [28], step: [795/1543], batch loss: 0.10543, batch accuracy: 95.25, data load time: 0.01511, step time: 0.07060
+epoch: [28], step: [895/1543], batch loss: 0.10662, batch accuracy: 93.08, data load time: 0.01416, step time: 0.07343
+epoch: [28], step: [995/1543], batch loss: 0.12563, batch accuracy: 96.42, data load time: 0.02602, step time: 0.07325
+epoch: [28], step: [1095/1543], batch loss: 0.11383, batch accuracy: 87.12, data load time: 0.02810, step time: 0.06483
+epoch: [28], step: [1195/1543], batch loss: 0.09338, batch accuracy: 96.85, data load time: 0.03144, step time: 0.06982
+epoch: [28], step: [1295/1543], batch loss: 0.11930, batch accuracy: 93.86, data load time: 0.01545, step time: 0.06986
+epoch: [28], step: [1395/1543], batch loss: 0.08498, batch accuracy: 97.92, data load time: 0.01098, step time: 0.06869
+epoch: [28], step: [1495/1543], batch loss: 0.11360, batch accuracy: 95.05, data load time: 0.01192, step time: 0.07127
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8828
+
+-------------------------------------------------------------
+validation loss: 0.13940, accuracy: 88.28
+epoch: [29], step: [52/1543], batch loss: 0.06802, batch accuracy: 99.13, data load time: 0.01234, step time: 0.06891
+epoch: [29], step: [152/1543], batch loss: 0.07357, batch accuracy: 96.20, data load time: 0.02538, step time: 0.06614
+epoch: [29], step: [252/1543], batch loss: 0.09714, batch accuracy: 95.34, data load time: 0.01239, step time: 0.07155
+epoch: [29], step: [352/1543], batch loss: 0.11332, batch accuracy: 93.60, data load time: 0.03362, step time: 0.07036
+epoch: [29], step: [452/1543], batch loss: 0.11343, batch accuracy: 94.25, data load time: 0.02803, step time: 0.06836
+epoch: [29], step: [552/1543], batch loss: 0.10165, batch accuracy: 95.26, data load time: 0.00401, step time: 0.06754
+epoch: [29], step: [652/1543], batch loss: 0.12821, batch accuracy: 93.96, data load time: 0.01199, step time: 0.07610
+epoch: [29], step: [752/1543], batch loss: 0.07647, batch accuracy: 98.98, data load time: 0.01371, step time: 0.06681
+epoch: [29], step: [852/1543], batch loss: 0.10478, batch accuracy: 97.59, data load time: 0.04749, step time: 0.06990
+epoch: [29], step: [952/1543], batch loss: 0.09688, batch accuracy: 94.76, data load time: 0.02747, step time: 0.06604
+epoch: [29], step: [1052/1543], batch loss: 0.08261, batch accuracy: 98.94, data load time: 0.05717, step time: 0.07262
+epoch: [29], step: [1152/1543], batch loss: 0.08326, batch accuracy: 97.44, data load time: 0.07553, step time: 0.06827
+epoch: [29], step: [1252/1543], batch loss: 0.14180, batch accuracy: 88.69, data load time: 0.01362, step time: 0.06891
+epoch: [29], step: [1352/1543], batch loss: 0.09124, batch accuracy: 96.86, data load time: 0.01380, step time: 0.07406
+epoch: [29], step: [1452/1543], batch loss: 0.15722, batch accuracy: 96.11, data load time: 0.01026, step time: 0.07265
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Validation AUC Score: 0.8838
+
+-------------------------------------------------------------
+validation loss: 0.13977, accuracy: 88.38
+EVALUATION METRICS:
+-------------------------------------------------------------
+
+Test AUC Score: 0.8906
+
+-------------------------------------------------------------
+validation loss: 0.40314, accuracy: 89.06

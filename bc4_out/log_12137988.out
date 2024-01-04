@@ -1,0 +1,35 @@
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/train.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/val.pkl...
+Loading data from /mnt/storage/scratch/ee20947/MagnaTagATune/annotations/test.pkl...
+Writing logs to logs/CNN_sgd_momentum=0.93_learning_rate=0.2_conv_length=256_conv_stride=256_batch_size=10_epochs=30_weight_decay=1e-05_extension=ExtraCNN_run_15
+epoch: [0], step: [99/1543], batch loss: 0.18275, batch accuracy: 63.11, data load time: 0.32384, step time: 0.03399
+epoch: [0], step: [199/1543], batch loss: 0.27522, batch accuracy: 55.54, data load time: 0.23629, step time: 0.04169
+epoch: [0], step: [299/1543], batch loss: 0.16969, batch accuracy: 75.52, data load time: 0.26398, step time: 0.03480
+epoch: [0], step: [399/1543], batch loss: 0.21243, batch accuracy: 64.40, data load time: 0.20269, step time: 0.03322
+epoch: [0], step: [499/1543], batch loss: 0.16537, batch accuracy: 74.60, data load time: 0.23469, step time: 0.03542
+epoch: [0], step: [599/1543], batch loss: 0.21234, batch accuracy: 66.20, data load time: 0.27241, step time: 0.03639
+epoch: [0], step: [699/1543], batch loss: 0.24228, batch accuracy: 71.30, data load time: 0.26222, step time: 0.03887
+epoch: [0], step: [799/1543], batch loss: 0.18125, batch accuracy: 76.68, data load time: 0.28789, step time: 0.03411
+epoch: [0], step: [899/1543], batch loss: 0.17100, batch accuracy: 81.66, data load time: 0.28590, step time: 0.03401
+epoch: [0], step: [999/1543], batch loss: 0.22754, batch accuracy: 69.92, data load time: 0.22925, step time: 0.03689
+epoch: [0], step: [1099/1543], batch loss: 0.23237, batch accuracy: 71.19, data load time: 0.27967, step time: 0.03696
+epoch: [0], step: [1199/1543], batch loss: 0.15159, batch accuracy: 74.94, data load time: 0.32088, step time: 0.03185
+epoch: [0], step: [1299/1543], batch loss: 0.22616, batch accuracy: 81.34, data load time: 0.25015, step time: 0.04051
+epoch: [0], step: [1399/1543], batch loss: 0.20166, batch accuracy: 76.13, data load time: 0.28423, step time: 0.03123
+epoch: [0], step: [1499/1543], batch loss: 0.19707, batch accuracy: 80.83, data load time: 0.25323, step time: 0.03558
+epoch: [1], step: [56/1543], batch loss: 0.20609, batch accuracy: 79.06, data load time: 0.17452, step time: 0.03555
+epoch: [1], step: [156/1543], batch loss: 0.16849, batch accuracy: 75.81, data load time: 0.14102, step time: 0.03469
+epoch: [1], step: [256/1543], batch loss: 0.17324, batch accuracy: 79.90, data load time: 0.19069, step time: 0.03545
+epoch: [1], step: [356/1543], batch loss: 0.19273, batch accuracy: 76.63, data load time: 0.19095, step time: 0.03341
+epoch: [1], step: [456/1543], batch loss: 0.21371, batch accuracy: 68.19, data load time: 0.20291, step time: 0.03633
+epoch: [1], step: [556/1543], batch loss: 0.21941, batch accuracy: 67.85, data load time: 0.19557, step time: 0.03767
+epoch: [1], step: [656/1543], batch loss: 0.14272, batch accuracy: 79.64, data load time: 0.23466, step time: 0.03213
+epoch: [1], step: [756/1543], batch loss: 0.19709, batch accuracy: 87.44, data load time: 0.20961, step time: 0.03829
+epoch: [1], step: [856/1543], batch loss: 0.26337, batch accuracy: 72.81, data load time: 0.31314, step time: 0.04056
+epoch: [1], step: [956/1543], batch loss: 0.16152, batch accuracy: 72.48, data load time: 0.27931, step time: 0.03346
+epoch: [1], step: [1056/1543], batch loss: 0.16604, batch accuracy: 84.12, data load time: 0.27679, step time: 0.03570
+epoch: [1], step: [1156/1543], batch loss: 0.20675, batch accuracy: 73.45, data load time: 0.33253, step time: 0.03479
+epoch: [1], step: [1256/1543], batch loss: 0.21918, batch accuracy: 72.83, data load time: 0.24958, step time: 0.03853
+epoch: [1], step: [1356/1543], batch loss: 0.17406, batch accuracy: 77.32, data load time: 0.26013, step time: 0.03705
+epoch: [1], step: [1456/1543], batch loss: 0.18821, batch accuracy: 75.79, data load time: 0.29973, step time: 0.03422

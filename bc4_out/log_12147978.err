@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "main.py", line 133, in <module>
+    main(parser.parse_args()) 
+  File "main.py", line 123, in main
+    trainer.train(args.epochs, args.val_frequency, print_frequency=args.print_frequency, log_frequency=args.log_frequency, key=keyVal)
+  File "/user/home/ee20947/cw/train.py", line 67, in train
+    logits = self.model.forward(batch)
+  File "/user/home/ee20947/cw/models.py", line 184, in forward
+    x = self.layer1(x)
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/user/home/ee20947/cw/models.py", line 234, in forward
+    out = self.mp(self.relu(self.bn(self.conv(x))))
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/mnt/storage/software/languages/anaconda/Anaconda3.8.8/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Expected 3D (unbatched) or 4D (batched) input to conv2d, but got input of size: [10, 349500]
